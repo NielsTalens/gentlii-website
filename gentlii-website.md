@@ -227,8 +227,7 @@ It helps teams:
 - Justify why something should or should not be built  
 - Stay aligned with strategy and product intent  
 
-It saves time for product teams  
-and brings clarity to everyone involved.
+It saves time for product teams and brings clarity to everyone involved.
 
 ---
 
@@ -241,5 +240,4 @@ By making this accessible:
 - Requesters receive clear feedback  
 - Discussions shift from opinion to alignment  
 
-Every idea is treated equally.  
-Every decision is grounded in the same logic.
+Every idea is treated equally and every decision is grounded in the same logic.
