@@ -1,4 +1,5 @@
-# Gentlii (Suite Overview)
+# making creating products easy
+
 Gentlii is a product thinking suite that helps product professionals achieve higher-quality decisions by reducing cognitive load and enabling structured thinking.
 
 One of the characteristics of Product Thinking is that it actually requires thinking. And thinking takes head space and time. And to be honest, taking time to think or re-think product decisions is hard. And most environments do not allow it.
@@ -178,7 +179,6 @@ Gentlii Feature Validator replaces intuition with structured evaluation.
 ---
 
 ## What it does
-
 Gentlii Feature Validator checks whether feature requests align with the full product definition.
 
 Every idea is evaluated against:
