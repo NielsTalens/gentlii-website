@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="297mm"
-   height="210mm"
-   viewBox="0 0 297 210"
+   width="201mm"
+   height="139mm"
+   viewBox="0 0 201 139"
    version="1.1"
    id="svg1"
    inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
@@ -23,10 +23,10 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="1.9705667"
-     inkscape:cx="565.82707"
-     inkscape:cy="227.85323"
-     inkscape:window-width="3408"
+     inkscape:zoom="0.69670054"
+     inkscape:cx="1049.949"
+     inkscape:cy="123.43897"
+     inkscape:window-width="1696"
      inkscape:window-height="1327"
      inkscape:window-x="26"
      inkscape:window-y="23"
@@ -34,7 +34,7 @@
      inkscape:current-layer="layer1"
      showguides="true">
     <sodipodi:guide
-       position="-133.22822,116.92538"
+       position="-133.22816,46.925389"
        orientation="0,-1"
        id="guide59"
        inkscape:locked="false" />
@@ -125,10 +125,10 @@
     ]]></style>
     <filter
        id="soft-glow"
-       x="-60%"
-       y="-60%"
-       width="220%"
-       height="220%">
+       x="-0.96800001"
+       width="2.936"
+       y="-inf"
+       height="inf">
       <feGaussianBlur
          stdDeviation="1.6"
          result="blur"
@@ -145,10 +145,10 @@
     </filter>
     <filter
        id="soft-glow-strong"
-       x="-80%"
-       y="-120%"
-       width="260%"
-       height="340%">
+       x="-0.47999999"
+       y="-1.08"
+       width="1.96"
+       height="3.1599999">
       <feGaussianBlur
          stdDeviation="1.8"
          result="blur-strong"
@@ -193,7 +193,7 @@
        id="product-guard-connectors"
        inkscape:transform-center-x="-0.34339174"
        inkscape:transform-center-y="-3.6005168"
-       transform="matrix(0.85252533,0,0,0.83799898,25.216505,12.264324)">
+       transform="matrix(0.85252533,0,0,0.83799898,-39.343753,7.7071293)">
       <line
          x1="163.25"
          y1="20"
@@ -237,7 +237,7 @@
     </g>
     <g
        id="gentlii-foundations-app"
-       transform="matrix(0.79097354,0,0,0.7798076,129.62183,57.716637)"
+       transform="matrix(0.79097354,0,0,0.7798076,65.061572,53.159442)"
        inkscape:label="gentlii-product-guard-app"
        style="display:inline">
       <rect
@@ -402,7 +402,7 @@
     </g>
     <g
        id="output-strategy"
-       transform="translate(142.25,12.5)">
+       transform="translate(77.689742,7.9428053)">
       <rect
          x="0"
          y="0"
@@ -442,7 +442,7 @@
     </g>
     <g
        id="output-business-case"
-       transform="translate(74.54713,49.48187)">
+       transform="translate(9.9868718,44.924675)">
       <rect
          x="0"
          y="0"
@@ -482,7 +482,7 @@
     </g>
     <g
        id="output-product-vision"
-       transform="translate(212.61123,50.621169)">
+       transform="translate(148.05097,46.063974)">
       <rect
          x="0"
          y="0"
@@ -522,7 +522,7 @@
     </g>
     <g
        id="output-jtbd"
-       transform="translate(176.93,117.28)">
+       transform="translate(112.36974,112.72281)">
       <rect
          x="0"
          y="0"
@@ -562,7 +562,7 @@
     </g>
     <g
        id="output-product-charter"
-       transform="translate(107.57,117.28)">
+       transform="translate(43.009742,112.72281)">
       <rect
          x="0"
          y="0"
