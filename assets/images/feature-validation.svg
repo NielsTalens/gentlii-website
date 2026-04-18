@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="256mm"
+   height="86mm"
+   viewBox="0 0 256 86"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   sodipodi:docname="feature-validation.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="7.8822668"
+     inkscape:cx="636.74577"
+     inkscape:cy="214.40533"
+     inkscape:window-width="1696"
+     inkscape:window-height="1327"
+     inkscape:window-x="26"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1"
+     showguides="true"
+     showgrid="true">
+    <sodipodi:guide
+       position="-133.22814,-5.0746025"
+       orientation="0,-1"
+       id="guide59"
+       inkscape:locked="false" />
+    <inkscape:grid
+       id="grid1"
+       units="mm"
+       originx="0"
+       originy="0"
+       spacingx="0.99999999"
+       spacingy="0.99999999"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       enabled="true"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <marker
+       id="arrowhead-right"
+       markerWidth="8"
+       markerHeight="6"
+       refX="7"
+       refY="3"
+       orient="auto"
+       markerUnits="strokeWidth">
+      <path
+         d="M 0,0 8,3 0,6 Z"
+         style="fill:#8ea7c2;stroke:none"
+         id="path-arrowhead-right" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       id="background"
+       x="8"
+       y="10"
+       width="281"
+       height="190"
+       rx="12"
+       style="fill:none;stroke:none" />
+    <path
+       id="flow-left-2"
+       d="m 41.967838,41.182543 c 0.529582,-0.04581 38.447061,0.04687 38.845921,0.125131"
+       style="fill:none;stroke:#8ea7c2;stroke-width:0.6;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.642857, 1.28571;stroke-dashoffset:0"
+       sodipodi:nodetypes="cc">
+      <animate
+         attributeName="stroke-dashoffset"
+         from="0"
+         to="-18"
+         dur="5.5s"
+         repeatCount="indefinite" />
+    </path>
+    <path
+       id="flow-right-main"
+       d="m 164.72807,41.274661 c 9.63524,-0.247333 18.29983,0.0799 27.14808,-0.0201"
+       style="fill:none;stroke:#8ea7c2;stroke-width:0.6;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.68, 1.28;stroke-dashoffset:0"
+       sodipodi:nodetypes="cc">
+      <animate
+         attributeName="stroke-dashoffset"
+         from="0"
+         to="-18"
+         dur="5.1s"
+         repeatCount="indefinite"
+         style="marker-end:" />
+    </path>
+    <g
+       id="gentlii-foundations-app"
+       transform="translate(101.07654,39.421745)">
+      <rect
+         x="-25.492933"
+         y="-31.132174"
+         width="90.2006"
+         height="66.964165"
+         rx="6.3671012"
+         style="fill:#11233f;stroke:#1c2a47;stroke-width:1.23583"
+         id="rect30" />
+      <rect
+         x="-25.914352"
+         y="-31.679258"
+         width="91.123734"
+         height="11"
+         rx="6.4322634"
+         style="fill:#1c355b;stroke:none;stroke-width:1.03539"
+         id="rect31" />
+      <rect
+         x="-26.009295"
+         y="-25.150091"
+         width="91.313614"
+         height="5"
+         style="fill:#1c355b;stroke:none;stroke-width:1.03647"
+         id="rect32" />
+      <circle
+         cx="-18.510851"
+         cy="-25.650091"
+         r="1.5"
+         style="fill:#f08f85;stroke:none"
+         id="circle32" />
+      <circle
+         cx="-13.510851"
+         cy="-25.650091"
+         r="1.5"
+         style="fill:#f1c66a;stroke:none"
+         id="circle33" />
+      <circle
+         cx="-8.5108509"
+         cy="-25.650091"
+         r="1.5"
+         style="fill:#8fd0a7;stroke:none"
+         id="circle34" />
+      <text
+         x="-1.5108507"
+         y="-23.950092"
+         style="font-size:4px;font-family:Arial;fill:#d8e3f2"
+         id="text34">Gentlii Feature Validation</text>
+      <rect
+         x="-91.938271"
+         y="-15.846061"
+         width="40.588806"
+         height="38.087666"
+         rx="6.764802"
+         style="fill:#17304f;fill-opacity:1;stroke:#31597d;stroke-width:0.825962"
+         id="rect34" />
+      <rect
+         x="20.27878"
+         y="16.427397"
+         width="42.623348"
+         height="15.537747"
+         rx="3.8748498"
+         style="fill:#1c355b;stroke:none;stroke-width:0.867514"
+         id="rect35" />
+      <rect
+         x="90.448219"
+         y="-19.905926"
+         width="52.324593"
+         height="49.773846"
+         rx="4.7567806"
+         style="fill:#11233f;fill-opacity:1;stroke:#31597d;stroke-width:0.8"
+         id="rect36" />
+      <rect
+         x="-89.370895"
+         y="-8.665452"
+         width="35.216709"
+         height="25.90233"
+         rx="4.5579047"
+         style="fill:#1b3859;fill-opacity:1;stroke:#2f5b7e;stroke-width:0.535419"
+         id="rect44" />
+      <text
+         x="-87.365318"
+         y="-11.316865"
+         style="font-size:2.5px;font-family:Arial;letter-spacing:0.4px;fill:#f1c66a"
+         id="text35">HUMAN INPUT</text>
+      <text
+         x="-86.083611"
+         y="-3.9098639"
+         style="font-weight:700;font-size:3.8px;font-family:Arial;fill:#dfe9f5"
+         id="text36">Feature request</text>
+      <text
+         x="-86.206589"
+         y="-0.13787405"
+         style="font-size:2.95px;font-family:Arial;fill:#8ea7c2"
+         id="text38"><tspan
+           sodipodi:role="line"
+           x="-86.206589"
+           y="-0.13787405"
+           id="tspan9">Any idea, problem</tspan><tspan
+           sodipodi:role="line"
+           x="-86.206589"
+           y="3.5496261"
+           id="tspan11">or change for the</tspan><tspan
+           sodipodi:role="line"
+           x="-86.206589"
+           y="7.2371259"
+           id="tspan12">product</tspan></text>
+      <line
+         x1="-85.82682"
+         y1="9.1306067"
+         x2="-58.62682"
+         y2="9.1306067"
+         style="stroke:#355d81;stroke-width:0.5"
+         id="line40" />
+      <rect
+         x="-87.678185"
+         y="11.283137"
+         width="8.8000002"
+         height="3.8"
+         rx="1.5"
+         style="fill:#6f5a2a;fill-opacity:1;stroke:none"
+         id="rect45" />
+      <rect
+         x="-77.47818"
+         y="11.283137"
+         width="10.4"
+         height="3.8"
+         rx="1.5"
+         style="fill:#2b5788;fill-opacity:1;stroke:none"
+         id="rect47" />
+      <rect
+         x="-65.578186"
+         y="11.283137"
+         width="8.9763336"
+         height="3.8"
+         rx="2.0400758"
+         style="fill:#375d59;fill-opacity:1;stroke:none;stroke-width:1.16621"
+         id="rect49" />
+      <text
+         x="-85.678185"
+         y="13.933139"
+         style="font-size:2.25px;font-family:Arial;fill:#f8e4b0"
+         id="text40">Goal</text>
+      <text
+         x="-75.94783"
+         y="13.933139"
+         style="font-size:2.25px;font-family:Arial;fill:#dfe9f5"
+         id="text41">Context</text>
+      <text
+         x="-64.278183"
+         y="13.933139"
+         style="font-size:2.25px;font-family:Arial;fill:#d6efe8"
+         id="text42">Flows</text>
+      <text
+         x="93.799911"
+         y="-13.546933"
+         style="font-size:2.5px;font-family:Arial;letter-spacing:0.4px;fill:#7dc1ea"
+         id="text43">EVALUATION</text>
+      <rect
+         x="124.58046"
+         y="-16.647709"
+         width="16.299999"
+         height="4.4000001"
+         rx="2.2"
+         style="fill:#5b6340;fill-opacity:1;stroke:none"
+         id="rect50" />
+      <text
+         x="126.64058"
+         y="-13.597709"
+         style="font-size:2.6px;font-family:Arial;fill:#d6efe8"
+         id="text45">Medium fit</text>
+      <line
+         x1="93.799911"
+         y1="-4.7469325"
+         x2="138.59991"
+         y2="-4.7469325"
+         style="stroke:#284560;stroke-width:0.6"
+         id="line42" />
+      <text
+         x="93.799911"
+         y="-0.59693283"
+         style="font-size:3.1px;font-family:Arial;fill:#8ea7c2"
+         id="text46">Strategy</text>
+      <rect
+         x="127.79991"
+         y="-3.1469321"
+         width="7.1999998"
+         height="4"
+         rx="2"
+         style="fill:#345f58;stroke:none"
+         id="rect51" />
+      <text
+         x="129.87076"
+         y="-0.29693359"
+         style="font-size:2.7px;font-family:Arial;fill:#d6efe8"
+         id="text47">5/5</text>
+      <rect
+         x="127.71165"
+         y="3.7760339"
+         width="7.1999998"
+         height="4"
+         rx="2"
+         style="fill:#345f58;stroke:none"
+         id="rect51-3" />
+      <text
+         x="129.7825"
+         y="6.6260285"
+         style="font-size:2.7px;font-family:Arial;fill:#d6efe8"
+         id="text47-5">5/5</text>
+      <line
+         x1="93.799911"
+         y1="2.1530671"
+         x2="138.59991"
+         y2="2.1530671"
+         style="stroke:#223850;stroke-width:0.45"
+         id="line43" />
+      <text
+         x="93.799911"
+         y="6.3030686"
+         style="font-size:3.1px;font-family:Arial;fill:#8ea7c2"
+         id="text48">Business Case</text>
+      <line
+         x1="93.799911"
+         y1="9.0530691"
+         x2="138.59991"
+         y2="9.0530691"
+         style="stroke:#223850;stroke-width:0.45"
+         id="line44" />
+      <text
+         x="93.799911"
+         y="13.203067"
+         style="font-size:3.1px;font-family:Arial;fill:#8ea7c2"
+         id="text50">Product Vision</text>
+      <rect
+         x="127.79991"
+         y="10.653068"
+         width="7.1999998"
+         height="4"
+         rx="2"
+         style="fill:#345f58;stroke:none"
+         id="rect53" />
+      <text
+         x="129.87076"
+         y="13.503066"
+         style="font-size:2.7px;font-family:Arial;fill:#d6efe8"
+         id="text51">5/5</text>
+      <line
+         x1="93.799911"
+         y1="15.953067"
+         x2="138.59991"
+         y2="15.953067"
+         style="stroke:#223850;stroke-width:0.45"
+         id="line45" />
+      <text
+         x="93.799911"
+         y="20.103067"
+         style="font-size:3.1px;font-family:Arial;fill:#8ea7c2"
+         id="text52">Product Charter</text>
+      <rect
+         x="127.79991"
+         y="17.553068"
+         width="7.1999998"
+         height="4"
+         rx="2"
+         style="fill:#5b6340;stroke:none"
+         id="rect54" />
+      <text
+         x="129.87076"
+         y="20.403067"
+         style="font-size:2.7px;font-family:Arial;fill:#f2e7b4"
+         id="text53">4/5</text>
+      <line
+         x1="93.799911"
+         y1="22.853067"
+         x2="138.59991"
+         y2="22.853067"
+         style="stroke:#223850;stroke-width:0.45"
+         id="line46" />
+      <text
+         x="93.799911"
+         y="27.003065"
+         style="font-size:3.1px;font-family:Arial;fill:#8ea7c2"
+         id="text54">Jobs To Be Done</text>
+      <rect
+         x="127.79991"
+         y="24.453066"
+         width="7.1999998"
+         height="4"
+         rx="2"
+         style="fill:#71423b;stroke:none"
+         id="rect55" />
+      <text
+         x="129.87076"
+         y="27.303064"
+         style="font-size:2.7px;font-family:Arial;fill:#ffd9cb"
+         id="text55">3/5</text>
+      <text
+         x="23.980188"
+         y="22.065405"
+         style="font-weight:700;font-size:4px;font-family:Arial;fill:#dfe9f5"
+         id="text1">Validating...</text>
+      <rect
+         x="23.980188"
+         y="24.477903"
+         width="14"
+         height="4"
+         rx="1.5"
+         style="fill:#2b5788;stroke:none"
+         id="rect41">
+        <animate
+           attributeName="opacity"
+           values="0.45;1;0.45"
+           dur="2.4s"
+           begin="0s"
+           repeatCount="indefinite" />
+      </rect>
+      <rect
+         x="39.980194"
+         y="24.477903"
+         width="9"
+         height="4"
+         rx="1.5"
+         style="fill:#2a6f9e;stroke:none"
+         id="rect42">
+        <animate
+           attributeName="opacity"
+           values="0.45;1;0.45"
+           dur="2.4s"
+           begin="0.8s"
+           repeatCount="indefinite" />
+      </rect>
+      <rect
+         x="50.980194"
+         y="24.477903"
+         width="9"
+         height="4"
+         rx="1.5"
+         style="fill:#407d73;stroke:none"
+         id="rect43">
+        <animate
+           attributeName="opacity"
+           values="0.45;1;0.45"
+           dur="2.4s"
+           begin="1.6s"
+           repeatCount="indefinite" />
+      </rect>
+      <text
+         x="93.515083"
+         y="-7.997911"
+         style="font-weight:700;font-size:4px;font-family:Arial;fill:#dfe9f5"
+         id="text2">FeatureAlignment</text>
+    </g>
+    <g
+       id="output-strategy"
+       transform="translate(77.486909,20.983745)">
+      <rect
+         x="0"
+         y="0"
+         width="42"
+         height="15"
+         rx="3"
+         style="fill:#1c355b;stroke:none"
+         id="rect46" />
+      <text
+         x="4"
+         y="6.3000002"
+         style="font-weight:700;font-size:3.9px;font-family:Arial;fill:#dfe9f5"
+         id="text3">Strategy</text>
+      <line
+         x1="4"
+         y1="10.2"
+         x2="29"
+         y2="10.2"
+         style="stroke:#8ea7c2;stroke-width:1.2;stroke-linecap:round"
+         id="line3" />
+      <line
+         x1="31"
+         y1="10.2"
+         x2="36"
+         y2="10.2"
+         style="opacity:0.35;stroke:#407d73;stroke-width:5.2;stroke-linecap:round"
+         id="line46-glow">
+        <animate
+           attributeName="opacity"
+           values="0.22;0.42;0.22"
+           dur="2s"
+           repeatCount="indefinite" />
+      </line>
+      <line
+         x1="31"
+         y1="10.2"
+         x2="36"
+         y2="10.2"
+         style="stroke:#407d73;stroke-width:2;stroke-linecap:round"
+         id="line47" />
+    </g>
+    <g
+       id="output-business-case"
+       transform="translate(121.44485,20.656151)">
+      <rect
+         x="0"
+         y="0"
+         width="42"
+         height="15"
+         rx="3"
+         style="fill:#1c355b;stroke:none"
+         id="rect48" />
+      <text
+         x="4"
+         y="6.3000002"
+         style="font-weight:700;font-size:3.9px;font-family:Arial;fill:#dfe9f5"
+         id="text4">Business Case</text>
+      <line
+         x1="4"
+         y1="10.2"
+         x2="27"
+         y2="10.2"
+         style="stroke:#8ea7c2;stroke-width:1.2;stroke-linecap:round"
+         id="line48" />
+      <line
+         x1="29"
+         y1="10.2"
+         x2="36"
+         y2="10.2"
+         style="opacity:0.38;stroke:#ff9f43;stroke-width:5.2;stroke-linecap:round"
+         id="line48-glow">
+        <animate
+           attributeName="opacity"
+           values="0.24;0.45;0.24"
+           dur="2s"
+           repeatCount="indefinite" />
+      </line>
+      <line
+         x1="29"
+         y1="10.2"
+         x2="36"
+         y2="10.2"
+         style="stroke:#ff9f43;stroke-width:2;stroke-linecap:round"
+         id="line49" />
+    </g>
+    <g
+       id="output-product-vision"
+       transform="translate(77.391969,39.005537)">
+      <rect
+         x="0"
+         y="0"
+         width="42"
+         height="15"
+         rx="3"
+         style="fill:#1c355b;stroke:none"
+         id="rect4" />
+      <text
+         x="4"
+         y="6.3000002"
+         style="font-weight:700;font-size:3.9px;font-family:Arial;fill:#dfe9f5"
+         id="text5">Product Vision</text>
+      <line
+         x1="4"
+         y1="10.2"
+         x2="28"
+         y2="10.2"
+         style="stroke:#8ea7c2;stroke-width:1.2;stroke-linecap:round"
+         id="line50" />
+      <line
+         x1="30"
+         y1="10.2"
+         x2="36"
+         y2="10.2"
+         style="opacity:0.34;stroke:#2a6f9e;stroke-width:5.2;stroke-linecap:round"
+         id="line50-glow">
+        <animate
+           attributeName="opacity"
+           values="0.2;0.4;0.2"
+           dur="2s"
+           repeatCount="indefinite" />
+      </line>
+      <line
+         x1="30"
+         y1="10.2"
+         x2="36"
+         y2="10.2"
+         style="stroke:#2a6f9e;stroke-width:2;stroke-linecap:round"
+         id="line51" />
+    </g>
+    <g
+       id="output-jtbd"
+       transform="translate(77.486909,55.95731)">
+      <rect
+         x="0"
+         y="0"
+         width="42"
+         height="15"
+         rx="3"
+         style="fill:#1c355b;stroke:none"
+         id="rect5" />
+      <text
+         x="4"
+         y="6.3000002"
+         style="font-weight:700;font-size:3.8px;font-family:Arial;fill:#dfe9f5"
+         id="text6">Jobs To Be Done</text>
+      <line
+         x1="4"
+         y1="10.2"
+         x2="25"
+         y2="10.2"
+         style="stroke:#8ea7c2;stroke-width:1.2;stroke-linecap:round"
+         id="line52" />
+      <line
+         x1="27"
+         y1="10.2"
+         x2="36"
+         y2="10.2"
+         style="opacity:0.35;stroke:#407d73;stroke-width:5.2;stroke-linecap:round"
+         id="line52-glow">
+        <animate
+           attributeName="opacity"
+           values="0.22;0.42;0.22"
+           dur="2s"
+           repeatCount="indefinite" />
+      </line>
+      <line
+         x1="27"
+         y1="10.2"
+         x2="36"
+         y2="10.2"
+         style="stroke:#407d73;stroke-width:2;stroke-linecap:round"
+         id="line53" />
+    </g>
+    <g
+       id="output-product-charter"
+       transform="translate(121.39039,38.784581)">
+      <rect
+         x="0"
+         y="0"
+         width="42"
+         height="15"
+         rx="3"
+         style="fill:#1c355b;stroke:none"
+         id="rect6" />
+      <text
+         x="4"
+         y="6.3000002"
+         style="font-weight:700;font-size:3.8px;font-family:Arial;fill:#dfe9f5"
+         id="text7">Product Charter</text>
+      <line
+         x1="4"
+         y1="10.2"
+         x2="24"
+         y2="10.2"
+         style="stroke:#8ea7c2;stroke-width:1.2;stroke-linecap:round"
+         id="line54" />
+      <line
+         x1="26"
+         y1="10.2"
+         x2="36"
+         y2="10.2"
+         style="opacity:0.38;stroke:#b07cff;stroke-width:5.2;stroke-linecap:round"
+         id="line54-glow">
+        <animate
+           attributeName="opacity"
+           values="0.24;0.45;0.24"
+           dur="2s"
+           repeatCount="indefinite" />
+      </line>
+      <line
+         x1="26"
+         y1="10.2"
+         x2="36"
+         y2="10.2"
+         style="stroke:#b07cff;stroke-width:2;stroke-linecap:round"
+         id="line55" />
+    </g>
+  </g>
+</svg>

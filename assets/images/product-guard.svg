@@ -23,22 +23,15 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="0.69670054"
-     inkscape:cx="1049.949"
-     inkscape:cy="123.43897"
-     inkscape:window-width="1696"
-     inkscape:window-height="1327"
-     inkscape:window-x="26"
-     inkscape:window-y="23"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="layer1"
-     showguides="true">
-    <sodipodi:guide
-       position="-133.22816,46.925389"
-       orientation="0,-1"
-       id="guide59"
-       inkscape:locked="false" />
-  </sodipodi:namedview>
+     inkscape:zoom="4.2104916"
+     inkscape:cx="453.15374"
+     inkscape:cy="272.88975"
+     inkscape:window-width="3440"
+     inkscape:window-height="1363"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="gentlii-foundations-app" />
   <defs
      id="defs1">
     <style
@@ -49,7 +42,7 @@
 
       .card-accent {
         animation: accent-glow 2.8s ease-in-out infinite;
-        filter: url(#soft-glow);
+        opacity: 0.98;
       }
 
       .card-accent-glow {
@@ -124,26 +117,6 @@
       }
     ]]></style>
     <filter
-       id="soft-glow"
-       x="-0.96800001"
-       width="2.936"
-       y="-inf"
-       height="inf">
-      <feGaussianBlur
-         stdDeviation="1.6"
-         result="blur"
-         id="feGaussianBlur1" />
-      <feMerge
-         id="feMerge1">
-        <feMergeNode
-           in="blur"
-           id="feMergeNode1" />
-        <feMergeNode
-           in="SourceGraphic"
-           id="feMergeNode2" />
-      </feMerge>
-    </filter>
-    <filter
        id="soft-glow-strong"
        x="-0.47999999"
        y="-1.08"
@@ -163,19 +136,6 @@
            id="feMergeNode4" />
       </feMerge>
     </filter>
-    <marker
-       id="arrowhead-right"
-       markerWidth="8"
-       markerHeight="6"
-       refX="7"
-       refY="3"
-       orient="auto"
-       markerUnits="strokeWidth">
-      <path
-         d="M 0,0 8,3 0,6 Z"
-         style="fill:#8ea7c2;stroke:none"
-         id="path-arrowhead-right" />
-    </marker>
   </defs>
   <g
      inkscape:label="Layer 1"
@@ -199,7 +159,7 @@
          y1="20"
          x2="163.25"
          y2="78.199997"
-         style="fill:none;stroke:#8ea7c2;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.8, 3.2"
+         style="fill:none;stroke:#8ea7c2;stroke-width:0.57144145;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.7347105,1.30615195;stroke-dashoffset:0"
          class="flow-line"
          id="connector-strategy" />
       <line
@@ -207,7 +167,7 @@
          y1="60.02"
          x2="163.25"
          y2="78.199997"
-         style="fill:none;stroke:#8ea7c2;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.8, 3.2"
+         style="fill:none;stroke:#8ea7c2;stroke-width:0.57144145;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.73471054,1.30615214;stroke-dashoffset:0"
          class="flow-line"
          id="connector-product-vision" />
       <line
@@ -215,7 +175,7 @@
          y1="124.78"
          x2="163.25"
          y2="78.199997"
-         style="fill:none;stroke:#8ea7c2;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.8, 3.2"
+         style="fill:none;stroke:#8ea7c2;stroke-width:0.57144145;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.73471054,1.30615214;stroke-dashoffset:0"
          class="flow-line"
          id="connector-jtbd" />
       <line
@@ -223,7 +183,7 @@
          y1="124.78"
          x2="163.25"
          y2="78.199997"
-         style="fill:none;stroke:#8ea7c2;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.8, 3.2"
+         style="fill:none;stroke:#8ea7c2;stroke-width:0.57144145;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.73471054,1.30615214;stroke-dashoffset:0"
          class="flow-line"
          id="connector-product-charter" />
       <line
@@ -231,7 +191,7 @@
          y1="60.02"
          x2="163.25"
          y2="78.199997"
-         style="fill:none;stroke:#8ea7c2;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.8, 3.2"
+         style="fill:none;stroke:#8ea7c2;stroke-width:0.57144145;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.7347105,1.30615195;stroke-dashoffset:0"
          class="flow-line"
          id="connector-business-case" />
     </g>
@@ -295,13 +255,13 @@
          style="fill:#1c355b;stroke:none;stroke-width:1.48023"
          id="rect35" />
       <text
-         x="45.689823"
-         y="24"
+         x="32.978703"
+         y="23.321413"
          style="font-weight:700;font-size:4px;font-family:Arial;fill:#dfe9f5"
          id="text41">Alignment check</text>
       <rect
-         x="41.675587"
-         y="28"
+         x="32.978504"
+         y="27.321413"
          width="14"
          height="4"
          rx="1.5"
@@ -309,8 +269,8 @@
          class="validation-accent"
          id="rect41" />
       <rect
-         x="57.675579"
-         y="28"
+         x="48.978497"
+         y="27.321413"
          width="9"
          height="4"
          rx="1.5"
@@ -318,8 +278,8 @@
          class="validation-accent"
          id="rect42" />
       <rect
-         x="68.675591"
-         y="28"
+         x="59.978508"
+         y="27.321413"
          width="9"
          height="4"
          rx="1.5"
@@ -386,17 +346,17 @@
          id="line41"
          transform="matrix(1.2642648,0,0,1.2823676,-163.87632,-74.013945)" />
       <line
-         x1="47.37323"
-         y1="37.616444"
-         x2="77.10218"
-         y2="37.616444"
+         x1="33.993103"
+         y1="36.937859"
+         x2="63.722054"
+         y2="36.937859"
          style="stroke:#6f86a3;stroke-width:1.44888"
          id="line40-9" />
       <line
-         x1="54.797504"
-         y1="41.991268"
-         x2="76.844452"
-         y2="41.991268"
+         x1="34.04575"
+         y1="41.393265"
+         x2="56.092697"
+         y2="41.393265"
          style="stroke:#6f86a3;stroke-width:1.24772"
          id="line40-9-9" />
     </g>

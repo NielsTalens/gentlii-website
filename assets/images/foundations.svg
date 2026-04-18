@@ -13,6 +13,8 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
   <sodipodi:namedview
      id="namedview1"
      pagecolor="#ffffff"
@@ -23,38 +25,15 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="0.69670055"
-     inkscape:cx="748.52819"
-     inkscape:cy="251.18396"
-     inkscape:window-width="1696"
-     inkscape:window-height="1327"
-     inkscape:window-x="26"
-     inkscape:window-y="23"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="layer1"
-     showguides="true">
-    <sodipodi:guide
-       position="-133.22819,66.925392"
-       orientation="0,-1"
-       id="guide59"
-       inkscape:locked="false" />
-  </sodipodi:namedview>
-  <defs
-     id="defs1">
-    <marker
-       id="arrowhead-right"
-       markerWidth="8"
-       markerHeight="6"
-       refX="7"
-       refY="3"
-       orient="auto"
-       markerUnits="strokeWidth">
-      <path
-         d="M 0,0 8,3 0,6 Z"
-         style="fill:#8ea7c2;stroke:none"
-         id="path-arrowhead-right" />
-    </marker>
-  </defs>
+     inkscape:zoom="1.840435"
+     inkscape:cx="484.66802"
+     inkscape:cy="274.39165"
+     inkscape:window-width="3440"
+     inkscape:window-height="1363"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
@@ -69,8 +48,9 @@
        style="fill:none;stroke:none" />
     <path
        id="flow-left-1"
-       d="m 43.126078,44.2 c 18.3,3.8 36,14.8 54.69446,29.008046"
-       style="fill:none;stroke:#8ea7c2;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.5, 3">
+       d="m 43.375498,37.896868 c 0.592224,-1.037975 54.817318,31.990221 57.342192,33.684705"
+       style="fill:none;stroke:#8ea7c2;stroke-width:0.6;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.642857, 1.28571;stroke-dashoffset:0"
+       sodipodi:nodetypes="cc">
       <animate
          attributeName="stroke-dashoffset"
          from="0"
@@ -80,8 +60,9 @@
     </path>
     <path
        id="flow-left-2"
-       d="m 43.126078,71.2 c 19,0.9 38,2.8 54.69446,2.008046"
-       style="fill:none;stroke:#8ea7c2;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.5, 3">
+       d="m 53.060553,54.687243 c 1.085023,0.663184 42.52131,14.035279 47.352177,17.478843"
+       style="fill:none;stroke:#8ea7c2;stroke-width:0.6;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.642857, 1.28571;stroke-dashoffset:0"
+       sodipodi:nodetypes="cc">
       <animate
          attributeName="stroke-dashoffset"
          from="0"
@@ -91,8 +72,9 @@
     </path>
     <path
        id="flow-left-3"
-       d="m 43.126078,98 c 19,-3.9 38.2,-12.8 54.69446,-24.791954"
-       style="fill:none;stroke:#8ea7c2;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.5, 3">
+       d="m 40.682528,66.701628 c 0,0 42.258184,4.572488 59.603132,6.074386"
+       style="fill:none;stroke:#8ea7c2;stroke-width:0.6;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.642857, 1.28571;stroke-dashoffset:0"
+       sodipodi:nodetypes="cc">
       <animate
          attributeName="stroke-dashoffset"
          from="0"
@@ -102,8 +84,9 @@
     </path>
     <path
        id="flow-left-4"
-       d="m 43.126078,125 c 20.8,-10.6 40.6,-29.8 54.69446,-51.791954"
-       style="fill:none;stroke:#8ea7c2;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.5, 3">
+       d="M 57.032306,77.898609 C 66.271067,76.861935 85.631134,75.59849 100.31107,73.309701"
+       style="fill:none;stroke:#8ea7c2;stroke-width:0.6;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.642857, 1.28571;stroke-dashoffset:0"
+       sodipodi:nodetypes="cc">
       <animate
          attributeName="stroke-dashoffset"
          from="0"
@@ -112,9 +95,33 @@
          repeatCount="indefinite" />
     </path>
     <path
+       id="flow-left-5"
+       d="M 41.839843,91.885299 C 63.499427,86.02906 71.616059,84.772448 100.7431,73.640078"
+       style="fill:none;stroke:#8ea7c2;stroke-width:0.6;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.642857, 1.28571;stroke-dashoffset:0"
+       sodipodi:nodetypes="cc">
+      <animate
+         attributeName="stroke-dashoffset"
+         from="0"
+         to="-18"
+         dur="6.4s"
+         repeatCount="indefinite" />
+    </path>
+    <path
+       id="flow-left-6"
+       d="M 56.573053,103.49854 C 69.522378,94.865664 79.928392,90.207938 100.84476,74.097523"
+       style="fill:none;stroke:#8ea7c2;stroke-width:0.647466;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.693714, 1.38742;stroke-dashoffset:0"
+       sodipodi:nodetypes="cc">
+      <animate
+         attributeName="stroke-dashoffset"
+         from="0"
+         to="-18"
+         dur="5.7s"
+         repeatCount="indefinite" />
+    </path>
+    <path
        id="flow-right-main"
-       d="m 185.83248,72.989373 c 9.63524,-0.247333 18.20489,0.412199 27.05314,0.312199"
-       style="fill:none;stroke:#8ea7c2;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.7, 3.2;marker-end:url(#arrowhead-right)"
+       d="m 185.83248,72.989373 c 9.63524,-0.247333 18.29983,0.0799 27.14808,-0.0201"
+       style="fill:none;stroke:#8ea7c2;stroke-width:0.6;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.68, 1.28;stroke-dashoffset:0"
        sodipodi:nodetypes="cc">
       <animate
          attributeName="stroke-dashoffset"
@@ -125,309 +132,197 @@
     </path>
     <g
        id="input-brief"
-       transform="translate(25.139299,30) scale(0.75)">
+       transform="matrix(0.56,0,0,0.56,33.813743,31.031646)">
       <path
-         d="m 2,2 h 14 l 6,6 V 29 H 2 Z"
-         style="opacity:0.95;fill:#17304f;stroke:#8ea7c2;stroke-width:0.8;stroke-linejoin:round"
+         d="m 0,0 h 14 l 6,6 V 24 H 0 Z"
+         style="fill:#1c355b;stroke:#aec0d2;stroke-width:1;stroke-linejoin:round"
          id="path1" />
       <path
-         d="m 16,2 v 6 h 6"
-         style="opacity:0.95;fill:none;stroke:#8ea7c2;stroke-width:0.8;stroke-linejoin:round"
-         id="path2" />
-      <path
-         d="m 0,0 h 14 l 6,6 V 27 H 0 Z"
-         style="opacity:0.98;fill:#1a2e4d;stroke:#8ea7c2;stroke-width:0.85;stroke-linejoin:round"
-         id="path3" />
-      <path
          d="m 14,0 v 6 h 6"
-         style="opacity:0.98;fill:none;stroke:#8ea7c2;stroke-width:0.85;stroke-linejoin:round"
-         id="path4" />
-      <path
-         d="m 4,4 h 14 l 6,6 V 31 H 4 Z"
-         style="fill:#1c355b;stroke:#aec0d2;stroke-width:1;stroke-linejoin:round"
-         id="path5" />
-      <path
-         d="m 18,4 v 6 h 6"
          style="fill:none;stroke:#aec0d2;stroke-width:1;stroke-linejoin:round"
-         id="path6" />
+         id="path2" />
       <rect
-         x="7"
-         y="8"
+         x="4"
+         y="4"
          width="8"
-         height="3.4000001"
+         height="3"
          rx="1.3"
          style="fill:#d4e3f5;stroke:none"
          id="rect6" />
       <text
-         x="7"
-         y="16"
-         style="font-weight:700;font-size:4.1px;font-family:Arial;fill:#dfe9f5"
+         x="2.7293177"
+         y="13.406024"
+         style="font-weight:700;font-size:6.2996px;font-family:Arial;fill:#dfe9f5"
          id="text6">Brief</text>
       <line
-         x1="7"
-         y1="20.5"
-         x2="20"
-         y2="20.5"
-         style="stroke:#aec0d2;stroke-width:1.4;stroke-linecap:round"
+         x1="4"
+         y1="15.5"
+         x2="16"
+         y2="15.5"
+         style="stroke:#aec0d2;stroke-width:1.2;stroke-linecap:round"
          id="line6" />
       <line
-         x1="7"
-         y1="24.200001"
-         x2="18.5"
-         y2="24.200001"
-         style="stroke:#aec0d2;stroke-width:1.4;stroke-linecap:round"
+         x1="4"
+         y1="18.700001"
+         x2="14.5"
+         y2="18.700001"
+         style="stroke:#aec0d2;stroke-width:1.2;stroke-linecap:round"
          id="line7" />
-      <line
-         x1="7"
-         y1="27.9"
-         x2="16.5"
-         y2="27.9"
-         style="stroke:#aec0d2;stroke-width:1.4;stroke-linecap:round"
-         id="line8" />
     </g>
     <g
        id="input-notes"
-       transform="translate(23.139299,57) scale(0.75)">
+       transform="matrix(0.56,0,0,0.56,46.335357,49.90145)">
       <path
-         d="m 3,3 h 14 l 6,6 V 30 H 3 Z"
-         style="opacity:0.95;fill:#17304f;stroke:#8ea7c2;stroke-width:0.8;stroke-linejoin:round"
+         d="m 0,0 h 14 l 6,6 V 24 H 0 Z"
+         style="fill:#1c355b;stroke:#aec0d2;stroke-width:1;stroke-linejoin:round"
          id="path8" />
       <path
-         d="m 17,3 v 6 h 6"
-         style="opacity:0.95;fill:none;stroke:#8ea7c2;stroke-width:0.8;stroke-linejoin:round"
-         id="path9" />
-      <path
-         d="m 0,1 h 14 l 6,6 V 28 H 0 Z"
-         style="opacity:0.98;fill:#1a2e4d;stroke:#8ea7c2;stroke-width:0.85;stroke-linejoin:round"
-         id="path10" />
-      <path
-         d="m 14,1 v 6 h 6"
-         style="opacity:0.98;fill:none;stroke:#8ea7c2;stroke-width:0.85;stroke-linejoin:round"
-         id="path11" />
-      <path
-         d="m 5,4 h 14 l 6,6 V 31 H 5 Z"
-         style="fill:#1c355b;stroke:#aec0d2;stroke-width:1;stroke-linejoin:round"
-         id="path12" />
-      <path
-         d="m 19,4 v 6 h 6"
+         d="m 14,0 v 6 h 6"
          style="fill:none;stroke:#aec0d2;stroke-width:1;stroke-linejoin:round"
-         id="path13" />
+         id="path9" />
       <rect
-         x="8"
-         y="8"
+         x="4"
+         y="4"
          width="8"
-         height="3.4000001"
+         height="3"
          rx="1.3"
          style="fill:#dbe9d8;stroke:none"
          id="rect13" />
       <text
-         x="8"
-         y="16"
-         style="font-weight:700;font-size:4.1px;font-family:Arial;fill:#dfe9f5"
+         x="1.1863462"
+         y="12.952209"
+         style="font-weight:700;font-size:6.2996px;font-family:Arial;fill:#dfe9f5"
          id="text13">Notes</text>
       <line
-         x1="8"
-         y1="20.5"
-         x2="21"
-         y2="20.5"
-         style="stroke:#aec0d2;stroke-width:1.4;stroke-linecap:round"
+         x1="4"
+         y1="15.5"
+         x2="16"
+         y2="15.5"
+         style="stroke:#aec0d2;stroke-width:1.2;stroke-linecap:round"
          id="line13" />
       <line
-         x1="8"
-         y1="24.200001"
-         x2="19"
-         y2="24.200001"
-         style="stroke:#aec0d2;stroke-width:1.4;stroke-linecap:round"
+         x1="4"
+         y1="18.700001"
+         x2="14.5"
+         y2="18.700001"
+         style="stroke:#aec0d2;stroke-width:1.2;stroke-linecap:round"
          id="line14" />
-      <line
-         x1="8"
-         y1="27.9"
-         x2="20.5"
-         y2="27.9"
-         style="stroke:#aec0d2;stroke-width:1.4;stroke-linecap:round"
-         id="line15" />
     </g>
     <g
        id="input-research"
-       transform="translate(25.949416,84) scale(0.75)">
+       transform="matrix(0.56,0,0,0.56,30.363472,58.712477)">
       <path
-         d="m 1,3 h 14 l 6,6 V 30 H 1 Z"
-         style="opacity:0.95;fill:#17304f;stroke:#8ea7c2;stroke-width:0.8;stroke-linejoin:round"
+         d="m 0,0 h 14 l 6,6 V 24 H 0 Z"
+         style="fill:#1c355b;stroke:#aec0d2;stroke-width:1;stroke-linejoin:round"
          id="path15" />
       <path
-         d="m 15,3 v 6 h 6"
-         style="opacity:0.95;fill:none;stroke:#8ea7c2;stroke-width:0.8;stroke-linejoin:round"
-         id="path16" />
-      <path
-         d="m 4,0 h 14 l 6,6 V 27 H 4 Z"
-         style="opacity:0.98;fill:#1a2e4d;stroke:#8ea7c2;stroke-width:0.85;stroke-linejoin:round"
-         id="path17" />
-      <path
-         d="m 18,0 v 6 h 6"
-         style="opacity:0.98;fill:none;stroke:#8ea7c2;stroke-width:0.85;stroke-linejoin:round"
-         id="path18" />
-      <path
-         d="m 0,5 h 14 l 6,6 V 32 H 0 Z"
-         style="fill:#1c355b;stroke:#aec0d2;stroke-width:1;stroke-linejoin:round"
-         id="path19" />
-      <path
-         d="m 14,5 v 6 h 6"
+         d="m 14,0 v 6 h 6"
          style="fill:none;stroke:#aec0d2;stroke-width:1;stroke-linejoin:round"
-         id="path20" />
+         id="path16" />
       <rect
-         x="3"
-         y="9"
-         width="10"
-         height="3.4000001"
-         rx="1.3"
-         style="fill:#f4e0d0;stroke:none"
+         x="3.3646588"
+         y="3.0923698"
+         width="8.2755022"
+         height="3"
+         rx="1.0758153"
+         style="fill:#f4e0d0;stroke:none;stroke-width:0.909698"
          id="rect20" />
       <text
-         x="0.88333327"
-         y="17"
-         style="font-weight:700;font-size:4px;font-family:Arial;fill:#dfe9f5"
-         id="text20">Research</text>
+         x="3.0152607"
+         y="13.224498"
+         style="font-weight:700;font-size:6.2996px;font-family:Arial;fill:#dfe9f5"
+         id="text20">UX</text>
       <line
-         x1="3"
-         y1="21.5"
+         x1="4"
+         y1="15.5"
          x2="16"
-         y2="21.5"
-         style="stroke:#aec0d2;stroke-width:1.4;stroke-linecap:round"
+         y2="15.5"
+         style="stroke:#aec0d2;stroke-width:1.2;stroke-linecap:round"
          id="line20" />
       <line
-         x1="3"
-         y1="25.200001"
+         x1="4"
+         y1="18.700001"
          x2="14.5"
-         y2="25.200001"
-         style="stroke:#aec0d2;stroke-width:1.4;stroke-linecap:round"
+         y2="18.700001"
+         style="stroke:#aec0d2;stroke-width:1.2;stroke-linecap:round"
          id="line21" />
-      <line
-         x1="3"
-         y1="28.9"
-         x2="12.5"
-         y2="28.9"
-         style="stroke:#aec0d2;stroke-width:1.4;stroke-linecap:round"
-         id="line22" />
     </g>
-    <circle
-       id="connector-circle-glow-left"
-       cx="97.820534"
-       cy="73.208046"
-       r="3.2"
-       style="opacity:0.18;fill:#9ec7ea;stroke:none">
-      <animate
-         attributeName="r"
-         values="2.6;4.4;2.6"
-         dur="2.8s"
-         repeatCount="indefinite" />
-      <animate
-         attributeName="opacity"
-         values="0.10;0.32;0.10"
-         dur="2.8s"
-         repeatCount="indefinite" />
-    </circle>
-    <circle
-       id="connector-circle"
-       cx="97.820534"
-       cy="73.208046"
-       r="1.9537606"
-       style="fill:#f5f8fc;stroke:#8ea7c2;stroke-width:0.710479">
-      <animate
-         attributeName="opacity"
-         values="0.88;1;0.88"
-         dur="2.8s"
-         repeatCount="indefinite" />
-    </circle>
-    <circle
-       id="connector-circle-glow-right"
-       cx="188.49084"
-       cy="72.799484"
-       r="3.2"
-       style="opacity:0.18;fill:#9ec7ea;stroke:none">
-      <animate
-         attributeName="r"
-         values="2.6;4.4;2.6"
-         dur="2.8s"
-         repeatCount="indefinite" />
-      <animate
-         attributeName="opacity"
-         values="0.10;0.32;0.10"
-         dur="2.8s"
-         repeatCount="indefinite" />
-    </circle>
-    <circle
-       id="connector-circle-1"
-       cx="188.49084"
-       cy="72.799484"
-       r="1.9537606"
-       style="fill:#f5f8fc;stroke:#8ea7c2;stroke-width:0.710479">
-      <animate
-         attributeName="opacity"
-         values="0.88;1;0.88"
-         dur="2.8s"
-         repeatCount="indefinite" />
-    </circle>
     <g
        id="input-email"
-       transform="translate(24.139299,111) scale(0.75)">
-      <path
-         d="m 2,1 h 14 l 6,6 V 28 H 2 Z"
-         style="opacity:0.95;fill:#17304f;stroke:#8ea7c2;stroke-width:0.8;stroke-linejoin:round"
+       transform="translate(46,71) scale(0.56)">
+      <rect
+         x="0"
+         y="0"
+         width="20"
+         height="24"
+         rx="4"
+         style="fill:#1c355b;stroke:#aec0d2;stroke-width:1"
          id="path22" />
-      <path
-         d="m 16,1 v 6 h 6"
-         style="opacity:0.95;fill:none;stroke:#8ea7c2;stroke-width:0.8;stroke-linejoin:round"
+      <rect
+         x="2.9178255"
+         y="6.8668208"
+         width="14.345875"
+         height="9.5639172"
+         rx="1.6736854"
+         style="fill:none;stroke:#aec0d2;stroke-width:1.19549"
          id="path23" />
       <path
-         d="m 0,4 h 14 l 6,6 V 31 H 0 Z"
-         style="opacity:0.98;fill:#1a2e4d;stroke:#8ea7c2;stroke-width:0.85;stroke-linejoin:round"
+         d="M 3.5486983,8.2481152 9.7652446,12.551878 15.981791,8.2481152"
+         style="fill:none;stroke:#aec0d2;stroke-width:1.19549;stroke-linecap:round;stroke-linejoin:round"
          id="path24" />
-      <path
-         d="m 14,4 v 6 h 6"
-         style="opacity:0.98;fill:none;stroke:#8ea7c2;stroke-width:0.85;stroke-linejoin:round"
-         id="path25" />
-      <path
-         d="m 5,0 h 14 l 6,6 V 27 H 5 Z"
-         style="fill:#1c355b;stroke:#aec0d2;stroke-width:1;stroke-linejoin:round"
-         id="path26" />
-      <path
-         d="m 19,0 v 6 h 6"
-         style="fill:none;stroke:#aec0d2;stroke-width:1;stroke-linejoin:round"
-         id="path27" />
+    </g>
+    <g
+       id="input-chats"
+       transform="matrix(0.56,0,0,0.56,31.944846,84.530741)">
       <rect
-         x="8"
-         y="4"
-         width="8"
-         height="3.4000001"
-         rx="1.3"
-         style="fill:#e7dcf7;stroke:none"
-         id="rect27" />
-      <text
-         x="8"
-         y="12"
-         style="font-weight:700;font-size:4.1px;font-family:Arial;fill:#dfe9f5"
-         id="text27">Email</text>
+         x="0"
+         y="0"
+         width="20"
+         height="24"
+         rx="4"
+         style="fill:#1c355b;stroke:#aec0d2;stroke-width:1"
+         id="rect28" />
+      <path
+         d="m 10.367376,5.9215939 h 4.198147 c 1.335925,0 2.418906,1.0829814 2.418906,2.4189063 v 4.8378118 c 0,1.335925 -1.082981,2.418907 -2.418906,2.418907 H 9.7277105 l -3.628359,2.418906 V 15.597219 H 4.8898984 c -1.3359253,0 -2.4189067,-1.082982 -2.4189063,-2.418907 V 8.3405002 c 0,-1.3359251 1.0829812,-2.4189063 2.4189063,-2.4189063 z"
+         style="fill:none;stroke:#aec0d2;stroke-width:1.20945;stroke-linejoin:round"
+         id="path28"
+         sodipodi:nodetypes="csssscccssscc" />
       <line
-         x1="8"
-         y1="16.5"
-         x2="21"
-         y2="16.5"
-         style="stroke:#aec0d2;stroke-width:1.4;stroke-linecap:round"
-         id="line27" />
-      <line
-         x1="8"
-         y1="20.200001"
-         x2="19.5"
-         y2="20.200001"
-         style="stroke:#aec0d2;stroke-width:1.4;stroke-linecap:round"
+         x1="6.0993514"
+         y1="10.759406"
+         x2="13.356071"
+         y2="10.759406"
+         style="stroke:#aec0d2;stroke-width:1.20945;stroke-linecap:round"
          id="line28" />
       <line
-         x1="8"
-         y1="23.9"
-         x2="17"
-         y2="23.9"
-         style="stroke:#aec0d2;stroke-width:1.4;stroke-linecap:round"
+         x1="6.0993514"
+         y1="13.178312"
+         x2="12.146617"
+         y2="13.178312"
+         style="stroke:#aec0d2;stroke-width:1.20945;stroke-linecap:round"
          id="line29" />
+    </g>
+    <g
+       id="input-people"
+       transform="matrix(0.56,0,0,0.56,45.424955,96.530741)">
+      <rect
+         x="0"
+         y="0"
+         width="20"
+         height="24"
+         rx="4"
+         style="fill:#1c355b;stroke:#aec0d2;stroke-width:1"
+         id="rect30-left" />
+      <circle
+         cx="9.9174881"
+         cy="9.3944502"
+         r="4.039649"
+         style="fill:none;stroke:#aec0d2;stroke-width:1.34655"
+         id="circle30" />
+      <path
+         d="m 3.8580143,18.820298 c 1.6158597,-2.962409 4.0396492,-4.443614 6.0594741,-4.443614 2.0198236,0 4.4436136,1.481205 6.0594736,4.443614"
+         style="fill:none;stroke:#aec0d2;stroke-width:1.34655;stroke-linecap:round;stroke-linejoin:round"
+         id="path30" />
     </g>
     <g
        id="gentlii-foundations-app"
@@ -509,36 +404,46 @@
          id="text36">Sources</text>
       <text
          x="10"
-         y="31"
-         style="font-size:3.6px;font-family:Arial;fill:#8ea7c2"
+         y="30.5"
+         style="font-size:3.1px;font-family:Arial;fill:#8ea7c2"
          id="text37">Brief</text>
       <text
          x="10"
-         y="36"
-         style="font-size:3.6px;font-family:Arial;fill:#8ea7c2"
+         y="34.5"
+         style="font-size:3.1px;font-family:Arial;fill:#8ea7c2"
          id="text38">Notes</text>
       <text
          x="10"
-         y="41"
-         style="font-size:3.6px;font-family:Arial;fill:#8ea7c2"
+         y="38.5"
+         style="font-size:3.1px;font-family:Arial;fill:#8ea7c2"
          id="text39">Research</text>
       <text
          x="10"
-         y="46"
-         style="font-size:3.6px;font-family:Arial;fill:#8ea7c2"
+         y="42.5"
+         style="font-size:3.1px;font-family:Arial;fill:#8ea7c2"
          id="text40">Email</text>
+      <text
+         x="10"
+         y="46.5"
+         style="font-size:3.1px;font-family:Arial;fill:#8ea7c2"
+         id="text40a">Chats</text>
+      <text
+         x="10"
+         y="50.5"
+         style="font-size:3.1px;font-family:Arial;fill:#8ea7c2"
+         id="text40b">People</text>
       <line
          x1="10"
-         y1="51"
+         y1="54"
          x2="24"
-         y2="51"
+         y2="54"
          style="stroke:#6f86a3;stroke-width:1"
          id="line40" />
       <line
          x1="10"
-         y1="55"
+         y1="58"
          x2="21"
-         y2="55"
+         y2="58"
          style="stroke:#6f86a3;stroke-width:1"
          id="line41" />
       <text
@@ -553,7 +458,14 @@
          height="4"
          rx="1.5"
          style="fill:#2b5788;stroke:none"
-         id="rect41" />
+         id="rect41">
+        <animate
+           attributeName="opacity"
+           values="0.45;1;0.45"
+           dur="2.4s"
+           begin="0s"
+           repeatCount="indefinite" />
+      </rect>
       <rect
          x="55"
          y="28"
@@ -561,7 +473,14 @@
          height="4"
          rx="1.5"
          style="fill:#2a6f9e;stroke:none"
-         id="rect42" />
+         id="rect42">
+        <animate
+           attributeName="opacity"
+           values="0.45;1;0.45"
+           dur="2.4s"
+           begin="0.8s"
+           repeatCount="indefinite" />
+      </rect>
       <rect
          x="66"
          y="28"
@@ -569,31 +488,38 @@
          height="4"
          rx="1.5"
          style="fill:#407d73;stroke:none"
-         id="rect43" />
+         id="rect43">
+        <animate
+           attributeName="opacity"
+           values="0.45;1;0.45"
+           dur="2.4s"
+           begin="1.6s"
+           repeatCount="indefinite" />
+      </rect>
       <text
          x="39"
          y="47"
          style="font-weight:700;font-size:4px;font-family:Arial;fill:#dfe9f5"
          id="text43">Foundations</text>
       <line
-         x1="39"
+         x1="39.143761"
          y1="52"
-         x2="73"
+         x2="73.143761"
          y2="52"
          style="stroke:#8ea7c2;stroke-width:1.1"
          id="line43" />
       <line
          x1="39"
-         y1="56"
+         y1="54.941666"
          x2="69"
-         y2="56"
+         y2="54.941666"
          style="stroke:#8ea7c2;stroke-width:1.1"
          id="line44" />
       <line
          x1="39"
-         y1="60"
+         y1="57.883331"
          x2="75"
-         y2="60"
+         y2="57.883331"
          style="stroke:#8ea7c2;stroke-width:1.1"
          id="line45" />
     </g>
@@ -626,7 +552,13 @@
          x2="36"
          y2="10.2"
          style="opacity:0.35;stroke:#407d73;stroke-width:5.2;stroke-linecap:round"
-         id="line46-glow" />
+         id="line46-glow">
+        <animate
+           attributeName="opacity"
+           values="0.22;0.42;0.22"
+           dur="2s"
+           repeatCount="indefinite" />
+      </line>
       <line
          x1="31"
          y1="10.2"
@@ -664,7 +596,13 @@
          x2="36"
          y2="10.2"
          style="opacity:0.38;stroke:#ff9f43;stroke-width:5.2;stroke-linecap:round"
-         id="line48-glow" />
+         id="line48-glow">
+        <animate
+           attributeName="opacity"
+           values="0.24;0.45;0.24"
+           dur="2s"
+           repeatCount="indefinite" />
+      </line>
       <line
          x1="29"
          y1="10.2"
@@ -702,7 +640,13 @@
          x2="36"
          y2="10.2"
          style="opacity:0.34;stroke:#2a6f9e;stroke-width:5.2;stroke-linecap:round"
-         id="line50-glow" />
+         id="line50-glow">
+        <animate
+           attributeName="opacity"
+           values="0.2;0.4;0.2"
+           dur="2s"
+           repeatCount="indefinite" />
+      </line>
       <line
          x1="30"
          y1="10.2"
@@ -740,7 +684,13 @@
          x2="36"
          y2="10.2"
          style="opacity:0.35;stroke:#407d73;stroke-width:5.2;stroke-linecap:round"
-         id="line52-glow" />
+         id="line52-glow">
+        <animate
+           attributeName="opacity"
+           values="0.22;0.42;0.22"
+           dur="2s"
+           repeatCount="indefinite" />
+      </line>
       <line
          x1="27"
          y1="10.2"
@@ -778,7 +728,13 @@
          x2="36"
          y2="10.2"
          style="opacity:0.38;stroke:#b07cff;stroke-width:5.2;stroke-linecap:round"
-         id="line54-glow" />
+         id="line54-glow">
+        <animate
+           attributeName="opacity"
+           values="0.24;0.45;0.24"
+           dur="2s"
+           repeatCount="indefinite" />
+      </line>
       <line
          x1="26"
          y1="10.2"
