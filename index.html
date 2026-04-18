@@ -39,16 +39,89 @@
       .page {
         width: min(1120px, calc(100% - 40px));
         margin: 0 auto;
-        padding: 32px 0 80px;
+        padding: 0 0 80px;
+      }
+
+      .site-header {
+        position: sticky;
+        inset: 0 0 auto 0;
+        z-index: 20;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 24px;
+        width: 100vw;
+        margin: 0 0 40px calc(50% - 50vw);
+        padding: 16px max(20px, calc((100vw - 1120px) / 2));
+        border-bottom: 1px solid var(--border);
+        border-radius: 0;
+        background: rgba(7, 20, 35, 0.08);
+        backdrop-filter: blur(18px);
+        box-shadow: 0 12px 28px rgba(0, 0, 0, 0.18);
+      }
+
+      .brand {
+        display: inline-flex;
+        align-items: center;
+        gap: 14px;
+        text-decoration: none;
+        color: var(--text);
+      }
+
+      .brand-mark {
+        width: 48px;
+        height: 48px;
+        display: grid;
+        place-items: center;
+        border-radius: 16px;
+        background: linear-gradient(180deg, rgba(17, 134, 184, 0.2), rgba(17, 134, 184, 0.08));
+        border: 1px solid rgba(17, 134, 184, 0.28);
+        flex: 0 0 auto;
+      }
+
+      .brand-mark img {
+        width: 32px;
+        height: auto;
+        display: block;
+      }
+
+      .brand-name {
+        font-size: 1.18rem;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      .header-nav {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 12px;
+        flex-wrap: wrap;
+      }
+
+      .header-nav a {
+        padding: 0;
+        color: var(--muted);
+        text-decoration: none;
+        font-size: 0.96rem;
+        font-weight: 600;
+        letter-spacing: 0.02em;
+        transition: color 140ms ease;
+      }
+
+      .header-nav a:hover,
+      .header-nav a:focus-visible {
+        color: var(--text);
       }
 
       .hero {
-        min-height: 100vh;
+        min-height: calc(100vh - 84px);
         display: flex;
         align-items: center;
         justify-content: center;
         text-align: center;
-        padding: 56px 0;
+        padding: 88px 0 56px;
       }
 
       .hero-card {
@@ -114,6 +187,7 @@
         font-weight: 400;
         color: var(--accent);
         letter-spacing: 0.03em;
+        line-height: 1.5;
       }
 
       .hero p {
@@ -152,6 +226,7 @@
         text-align: left;
         padding: 40px 0 0;
         position: relative;
+        scroll-margin-top: 96px;
       }
 
       .section::before {
@@ -193,8 +268,9 @@
       p {
         margin: 0 0 18px;
         color: var(--muted);
-        font-size: 1.34rem;
+        font-size: 1.36rem;
         line-height: 1.82;
+        letter-spacing: 0.02em;
       }
 
       ul {
@@ -228,13 +304,23 @@
       @media (max-width: 720px) {
         .page {
           width: min(100% - 24px, 1120px);
-          padding-top: 12px;
           padding-bottom: 48px;
+        }
+
+        .site-header {
+          align-items: flex-start;
+          flex-direction: column;
+          padding: 14px 16px;
+          margin-bottom: 24px;
+        }
+
+        .header-nav {
+          justify-content: flex-start;
         }
 
         .hero {
           min-height: auto;
-          padding: 24px 0 44px;
+          padding: 56px 0 44px;
         }
 
         .logo-wrap {
@@ -253,6 +339,21 @@
   </head>
   <body>
     <div class="page">
+      <header class="site-header">
+        <a class="brand" href="#top" aria-label="Gentlii home">
+          <span class="brand-mark">
+            <img src="logo.png" alt="Gentlii logo" />
+          </span>
+          <span class="brand-name">Gentlii</span>
+        </a>
+
+        <nav class="header-nav" aria-label="Product suite modules">
+          <a href="#foundations">Foundations</a>
+          <a href="#product-guard">Product Guard</a>
+          <a href="#feature-validator">Feature Validator</a>
+        </nav>
+      </header>
+
       <section class="hero">
         <div class="hero-card">
           <div class="logo-wrap">
@@ -269,7 +370,7 @@
       </section>
 
       <main>
-        <section class="section">
+        <section class="section" id="foundations">
           <div class="section-card">
             <span class="eyebrow">Suite Module</span>
             <h2>Gentlii Foundations</h2>
@@ -288,13 +389,7 @@
             <p>
               Gentlii Foundations creates a structured, living product definition.
               It organizes your product into a fixed set of core documents.
-              Together, these form a coherent system that defines:</p>
-            <ul>
-              <li>Why the product exists</li>
-              <li>Who it serves</li>
-              <li>What it should do</li>
-              <li>How decisions are made</li>
-            </ul>
+              Together, these form a coherent system that defines why the product exists, who it serves and what it should do.
             <p>
               When these elements are aligned, every new idea can be evaluated
               with clarity and consistency. This is where Gentlii Feature
@@ -303,15 +398,15 @@
 
             <div class="split"></div>
 
-            <h3>How</h3>
-            <p>Drop in your existing documents.
+            <h3>Just drop in your existing documents</h3>
+            <p>Any type of document. Any type of information.
               Gentlii structures, connects, and highlights gaps.
             </p>
-            <p>No invention. Just clarity.</p>
+            <p>No invention. Just clarity and structure.</p>
           </div>
         </section>
 
-        <section class="section">
+        <section class="section" id="product-guard">
           <div class="section-card">
             <span class="eyebrow">Suite Module</span>
             <h2>Gentlii Product Guard</h2>
@@ -327,11 +422,11 @@
 
             <div class="split"></div>
 
-            <h3>How</h3>
+            <h3>Continuous validation</h3>
             <p>
               Gentlii Product Guard continuously validates alignment across all
               product definition elements.
-              This makes gaps, conflicts, and inconsistencies as the product
+              This makes gaps, conflicts, and inconsistencies automaticialy detected as the product
               evolves.
             </p>
             <p>
@@ -342,7 +437,7 @@
           </div>
         </section>
 
-        <section class="section">
+        <section class="section" id="feature-validator">
           <div class="section-card">
             <span class="eyebrow">Suite Module</span>
             <h2>Gentlii Feature Validator</h2>

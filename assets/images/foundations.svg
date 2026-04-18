@@ -69,7 +69,7 @@
        style="fill:none;stroke:none" />
     <path
        id="flow-left-1"
-       d="m 43.626078,34.252157 c 18.5,4 36.5,16 54.19446,38.955894"
+       d="m 43.126078,44.2 c 18.3,3.8 36,14.8 54.69446,29.008046"
        style="fill:none;stroke:#8ea7c2;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.5, 3">
       <animate
          attributeName="stroke-dashoffset"
@@ -80,7 +80,7 @@
     </path>
     <path
        id="flow-left-2"
-       d="m 43.126078,66.252157 c 19,1 38,4 54.69446,6.955894"
+       d="m 43.126078,71.2 c 19,0.9 38,2.8 54.69446,2.008046"
        style="fill:none;stroke:#8ea7c2;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.5, 3">
       <animate
          attributeName="stroke-dashoffset"
@@ -91,7 +91,7 @@
     </path>
     <path
        id="flow-left-3"
-       d="m 39.926078,100.25216 c 20.2,-4.000003 39.2,-15.000003 57.89446,-27.044109"
+       d="m 43.126078,98 c 19,-3.9 38.2,-12.8 54.69446,-24.791954"
        style="fill:none;stroke:#8ea7c2;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.5, 3">
       <animate
          attributeName="stroke-dashoffset"
@@ -102,7 +102,7 @@
     </path>
     <path
        id="flow-left-4"
-       d="m 43.126078,133.25216 c 21,-11 41,-34.000003 54.69446,-60.044109"
+       d="m 43.126078,125 c 20.8,-10.6 40.6,-29.8 54.69446,-51.791954"
        style="fill:none;stroke:#8ea7c2;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.5, 3">
       <animate
          attributeName="stroke-dashoffset"
@@ -125,7 +125,7 @@
     </path>
     <g
        id="input-brief"
-       transform="translate(19.139299,13.936196)">
+       transform="translate(25.139299,30) scale(0.75)">
       <path
          d="m 2,2 h 14 l 6,6 V 29 H 2 Z"
          style="opacity:0.95;fill:#17304f;stroke:#8ea7c2;stroke-width:0.8;stroke-linejoin:round"
@@ -187,7 +187,7 @@
     </g>
     <g
        id="input-notes"
-       transform="translate(17.139299,45.936196)">
+       transform="translate(23.139299,57) scale(0.75)">
       <path
          d="m 3,3 h 14 l 6,6 V 30 H 3 Z"
          style="opacity:0.95;fill:#17304f;stroke:#8ea7c2;stroke-width:0.8;stroke-linejoin:round"
@@ -249,7 +249,7 @@
     </g>
     <g
        id="input-research"
-       transform="translate(19.949416,78.936196)">
+       transform="translate(25.949416,84) scale(0.75)">
       <path
          d="m 1,3 h 14 l 6,6 V 30 H 1 Z"
          style="opacity:0.95;fill:#17304f;stroke:#8ea7c2;stroke-width:0.8;stroke-linejoin:round"
@@ -369,7 +369,7 @@
     </circle>
     <g
        id="input-email"
-       transform="translate(18.139299,113.9362)">
+       transform="translate(24.139299,111) scale(0.75)">
       <path
          d="m 2,1 h 14 l 6,6 V 28 H 2 Z"
          style="opacity:0.95;fill:#17304f;stroke:#8ea7c2;stroke-width:0.8;stroke-linejoin:round"
