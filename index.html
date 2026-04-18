@@ -13,7 +13,11 @@
         --text: #f2f7fb;
         --muted: #b7c9d8;
         --accent: #1186b8ff;
-        --accent-soft: rgba(17, 134, 184, 0.18);
+        --accent-soft: rgba(17, 134, 184, 0.12);
+        --accent-faint: rgba(17, 134, 184, 0.08);
+        --hero-glow-size: 420px;
+        --hero-glow: radial-gradient(circle, var(--accent-soft), transparent 68%);
+        --title-glow: radial-gradient(circle, var(--accent-faint), transparent 70%);
         --border: rgba(125, 175, 205, 0.2);
         --shadow: 0 32px 80px rgba(0, 0, 0, 0.34);
       }
@@ -101,8 +105,8 @@
         padding: 0;
         color: var(--muted);
         text-decoration: none;
-        font-size: 0.96rem;
-        font-weight: 600;
+        font-size: 1.2rem;
+        font-weight: 400;
         letter-spacing: 0.02em;
         transition: color 140ms ease;
       }
@@ -136,10 +140,10 @@
         content: "";
         position: absolute;
         inset: -120px auto auto 50%;
-        width: 420px;
-        height: 420px;
+        width: var(--hero-glow-size);
+        height: var(--hero-glow-size);
         transform: translateX(-50%);
-        background: radial-gradient(circle, rgba(17, 134, 184, 0.18), transparent 68%);
+        background: var(--hero-glow);
         pointer-events: none;
       }
 
@@ -157,8 +161,23 @@
       }
 
       h2 {
+        display: block;
+        width: fit-content;
+        position: relative;
         font-size: clamp(2.4rem, 4.8vw, 4rem);
         margin-bottom: 24px;
+      }
+
+      h2::after {
+        content: "";
+        position: absolute;
+        left: calc(100% + 28px);
+        top: 50%;
+        width: 210px;
+        height: 210px;
+        transform: translateY(-50%);
+        background: var(--title-glow);
+        pointer-events: none;
       }
 
       h3 {
@@ -187,25 +206,6 @@
         width: 100%;
         height: auto;
         display: block;
-      }
-
-      .suite-list {
-        list-style: none;
-        margin: 34px auto 0;
-        padding: 0;
-        width: min(80vw, 1120px);
-        display: grid;
-        gap: 10px;
-      }
-
-      .suite-list li {
-        padding: 10px 0;
-        border-radius: 0;
-        background: transparent;
-        border: 0;
-        border-top: 1px solid rgba(17, 134, 184, 0.22);
-        font-size: 1.34rem;
-        line-height: 1.65;
       }
 
       main {
@@ -244,6 +244,28 @@
         height: 1px;
         margin: 30px 0;
         background: linear-gradient(90deg, rgba(17, 134, 184, 0.7), rgba(17, 134, 184, 0));
+      }
+
+      .module-intro {
+        position: relative;
+      }
+
+      .module-intro::before {
+        content: "";
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        width: min(100%, 520px);
+        height: 280px;
+        transform: translate(-50%, -50%);
+        background: var(--hero-glow);
+        pointer-events: none;
+        z-index: 0;
+      }
+
+      .module-intro p {
+        position: relative;
+        z-index: 1;
       }
 
       .foundations-inline-visual {
@@ -322,11 +344,17 @@
           margin-top: 24px;
         }
 
+        h2::after {
+          left: calc(100% + 16px);
+          width: 150px;
+          height: 150px;
+        }
+
       }
     </style>
   </head>
   <body>
-    <div class="page">
+    <div class="page" id="top">
       <header class="site-header">
         <a class="brand" href="#top" aria-label="Gentlii home">
           <span class="brand-mark">
@@ -373,22 +401,24 @@
 
             <div class="split"></div>
 
-            <p>
-              Gentlii Foundations creates a structured, living product definition.
-              It organizes your product into a fixed set of core documents.
-              Together, these form a coherent system that defines why the product exists, who it serves and what it should do.
-            </br>
-              When these elements are aligned, every new idea can be evaluated
-              with clarity and consistency. This is where Gentlii Feature
-              Validation takes the stage.
-            </p>
+            <div class="module-intro">
+              <p>
+                Gentlii Foundations creates a structured, living product definition.
+                It organizes your product into a fixed set of core documents.
+                Together, these form a coherent system that defines why the product exists, who it serves and what it should do.
+              <br />
+                When these elements are aligned, every new idea can be evaluated
+                with clarity and consistency. This is where Gentlii Feature
+                Validation takes the stage.
+              </p>
+            </div>
 
             <div class="split"></div>
 
             <h3>Just drop in your existing documents</h3>
             <p>Any type of document. Any type of information.
               Gentlii structures, connects, and highlights gaps.
-              </br>No invention. Just clarity and structure.</p>
+              <br />No invention. Just clarity and structure.</p>
           </div>
         </section>
 
@@ -409,15 +439,17 @@
             <div class="split"></div>
 
             <h3>Continuous validation</h3>
-            <p>
-              Gentlii Product Guard continuously validates alignment across all
-              product definition elements.
-              This makes gaps, conflicts, and inconsistencies automaticialy detected as the product
-              evolves.
-              Whenever something changes in the product definition, Product
-              Guard evaluates the impact.
-              This ensures that the product remains coherent as it evolves.
-            </p>
+            <div class="module-intro">
+              <p>
+                Gentlii Product Guard continuously validates alignment across all
+                product definition elements.
+                This makes gaps, conflicts, and inconsistencies automaticialy detected as the product
+                evolves.
+                Whenever something changes in the product definition, Product
+                Guard evaluates the impact.
+                This ensures that the product remains coherent as it evolves.
+              </p>
+            </div>
           </div>
         </section>
 
@@ -438,13 +470,15 @@
             <div class="split"></div>
 
             <h3>Fast and complete validation</h3>
-            <p>Fast decisions often reduce quality. Careful decisions often take too long.
-            Gentlii Feature Validator removes that trade-off.
-            Gentlii Feature Validator checks whether feature requests align
-            with the full product definition.
-              Every idea gets the same structured evaluation.  
-              Clear reasoning. No guesswork.
-            </p>
+            <div class="module-intro">
+              <p>Fast decisions often reduce quality. Careful decisions often take too long.
+              Gentlii Feature Validator removes that trade-off.
+              Gentlii Feature Validator checks whether feature requests align
+              with the full product definition.
+                Every idea gets the same structured evaluation.  
+                Clear reasoning. No guesswork.
+              </p>
+            </div>
           </div>
         </section>
       </main>
