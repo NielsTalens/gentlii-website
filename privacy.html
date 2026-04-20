@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="logo.png" />
+    <title>Privacy Policy | Gentlii</title>
+    <style>
+      :root {
+        --bg: #071423;
+        --surface: rgba(8, 28, 46, 0.82);
+        --surface-strong: rgba(10, 34, 55, 0.96);
+        --text: #f2f7fb;
+        --muted: #b7c9d8;
+        --accent: #1186b8ff;
+        --accent-soft: rgba(17, 134, 184, 0.12);
+        --accent-faint: rgba(17, 134, 184, 0.08);
+        --hero-glow-size: 420px;
+        --hero-glow: radial-gradient(circle, var(--accent-soft), transparent 68%);
+        --title-glow: radial-gradient(circle, var(--accent-faint), transparent 70%);
+        --border: rgba(125, 175, 205, 0.2);
+        --shadow: 0 32px 80px rgba(0, 0, 0, 0.34);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background: #071423;
+        background-image:
+          radial-gradient(circle at top, rgba(17, 134, 184, 0.22), transparent 36%),
+          linear-gradient(180deg, #0a1a2b 0%, #071423 42%, #08111b 100%);
+        color: var(--text);
+        font-family: "Söhne", "Inter", "Avenir Next", "Helvetica Neue", "Segoe UI", sans-serif;
+      }
+
+      .page {
+        width: min(1120px, calc(100% - 40px));
+        margin: 0 auto;
+        padding: 0 0 80px;
+      }
+
+      .site-header {
+        position: sticky;
+        inset: 0 0 auto 0;
+        z-index: 20;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 24px;
+        width: 100vw;
+        margin: 0 0 40px calc(50% - 50vw);
+        padding: 16px max(20px, calc((100vw - 1120px) / 2));
+        border-bottom: 1px solid var(--border);
+        border-radius: 0;
+        background: rgba(7, 20, 35, 0.08);
+        backdrop-filter: blur(18px);
+        box-shadow: 0 12px 28px rgba(0, 0, 0, 0.18);
+      }
+
+      .brand {
+        display: inline-flex;
+        align-items: center;
+        gap: 14px;
+        text-decoration: none;
+        color: var(--text);
+      }
+
+      .brand-mark {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        flex: 0 0 auto;
+      }
+
+      .brand-mark img {
+        width: 36px;
+        height: auto;
+        display: block;
+      }
+
+      .brand-name {
+        font-size: 1.18rem;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      .header-nav {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 12px;
+        flex-wrap: wrap;
+      }
+
+      .header-nav a {
+        padding: 0;
+        color: var(--muted);
+        text-decoration: none;
+        font-size: 1.2rem;
+        font-weight: 400;
+        letter-spacing: 0.02em;
+        transition: color 140ms ease;
+      }
+
+      .header-nav a:hover,
+      .header-nav a:focus-visible {
+        color: var(--text);
+      }
+
+      .policy-hero {
+        padding: 96px 0 36px;
+      }
+
+      .policy-card {
+        width: min(80vw, 1120px);
+        margin: 0 auto;
+        position: relative;
+      }
+
+      .policy-card::before {
+        content: "";
+        position: absolute;
+        inset: -120px auto auto 50%;
+        width: var(--hero-glow-size);
+        height: var(--hero-glow-size);
+        transform: translateX(-50%);
+        background: var(--hero-glow);
+        pointer-events: none;
+      }
+
+      h1,
+      h2,
+      h3 {
+        margin: 0;
+        line-height: 0.92;
+        letter-spacing: -0.05em;
+        font-weight: 750;
+      }
+
+      h1 {
+        font-size: clamp(3.4rem, 7vw, 5rem);
+        position: relative;
+        margin-bottom: 18px;
+      }
+
+      h2 {
+        font-size: clamp(2rem, 4.4vw, 3.2rem);
+        margin-bottom: 20px;
+        position: relative;
+        width: fit-content;
+      }
+
+      h2::after {
+        content: "";
+        position: absolute;
+        left: calc(100% + 24px);
+        top: 50%;
+        width: 180px;
+        height: 180px;
+        transform: translateY(-50%);
+        background: var(--title-glow);
+        pointer-events: none;
+      }
+
+      h3 {
+        font-size: clamp(1.2rem, 2vw, 1.5rem);
+        margin-bottom: 12px;
+        font-weight: 600;
+        color: var(--accent);
+        letter-spacing: 0.03em;
+        line-height: 1.4;
+      }
+
+      .policy-intro {
+        max-width: 860px;
+        color: var(--muted);
+        font-size: clamp(1.15rem, 2vw, 1.42rem);
+        line-height: 1.8;
+      }
+
+      main {
+        display: grid;
+        gap: 28px;
+      }
+
+      .section-card {
+        width: min(80vw, 1120px);
+        margin: 0 auto;
+        padding: 38px 40px 32px;
+        border: 1px solid var(--border);
+        background: linear-gradient(180deg, rgba(8, 28, 46, 0.88), rgba(10, 34, 55, 0.92));
+        box-shadow: var(--shadow);
+      }
+
+      .eyebrow {
+        display: inline-block;
+        margin-bottom: 16px;
+        color: var(--accent);
+        font-size: 0.78rem;
+        font-weight: 700;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+      }
+
+      .split {
+        height: 1px;
+        margin: 26px 0;
+        background: linear-gradient(90deg, rgba(17, 134, 184, 0.7), rgba(17, 134, 184, 0));
+      }
+
+      p {
+        margin: 0 0 18px;
+        color: var(--muted);
+        font-size: 1.2rem;
+        line-height: 1.82;
+        letter-spacing: 0.02em;
+      }
+
+      p a,
+      li a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+
+      ul {
+        margin: 0 0 18px;
+        padding-left: 20px;
+        color: var(--text);
+      }
+
+      li {
+        margin-bottom: 8px;
+        color: var(--muted);
+        font-size: 1.14rem;
+        line-height: 1.72;
+      }
+
+      strong {
+        color: var(--text);
+      }
+
+      .last-updated {
+        margin-bottom: 26px;
+        color: var(--text);
+        font-size: 1rem;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+
+      .site-footer {
+        width: min(80vw, 1120px);
+        margin: 72px auto 0;
+        padding-top: 22px;
+        border-top: 1px solid var(--border);
+      }
+
+      .footer-links {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+      }
+
+      .footer-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        color: var(--muted);
+        text-decoration: none;
+        font-size: 1rem;
+        letter-spacing: 0.02em;
+        transition: color 140ms ease;
+      }
+
+      .footer-link:hover,
+      .footer-link:focus-visible {
+        color: var(--accent);
+      }
+
+      .footer-link svg {
+        width: 15px;
+        height: 15px;
+        flex: 0 0 auto;
+        fill: currentColor;
+      }
+
+      @media (max-width: 720px) {
+        .page {
+          width: 100%;
+          padding-bottom: 48px;
+        }
+
+        .site-header {
+          align-items: flex-start;
+          flex-direction: column;
+          padding: 14px 16px;
+          margin-bottom: 24px;
+        }
+
+        .header-nav {
+          justify-content: flex-start;
+        }
+
+        .policy-hero,
+        .section-card,
+        .site-footer {
+          width: 100%;
+          max-width: none;
+        }
+
+        .policy-card,
+        .section-card,
+        .site-footer {
+          width: 100%;
+          padding-inline: 16px;
+        }
+
+        .section-card {
+          padding-top: 28px;
+          padding-bottom: 24px;
+        }
+
+        .site-footer {
+          margin-top: 56px;
+        }
+
+        h2::after {
+          left: calc(100% + 16px);
+          width: 140px;
+          height: 140px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <header class="site-header">
+        <a class="brand" href="index.html" aria-label="Gentlii home">
+          <span class="brand-mark">
+            <img src="logo.png" alt="Gentlii logo" />
+          </span>
+          <span class="brand-name">Gentlii</span>
+        </a>
+
+        <nav class="header-nav" aria-label="Page navigation">
+          <a href="index.html">Back to home</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="policy-hero">
+          <div class="policy-card">
+            <span class="eyebrow">Legal</span>
+            <h1>Privacy Policy</h1>
+            <p class="policy-intro">
+              Gentlii provides product information on this website and keeps data handling intentionally minimal.
+              This page describes what is and is not collected when someone visits the site.
+            </p>
+          </div>
+        </section>
+
+        <section class="section-card" aria-labelledby="privacy-policy">
+          <span class="eyebrow">Privacy</span>
+          <h2 id="privacy-policy">Privacy Policy</h2>
+          <p class="last-updated"><strong>Last updated:</strong> 2026-04-20</p>
+
+          <h3>1. Introduction</h3>
+          <p>
+            Welcome to Gentlii. We respect your privacy and are committed to protecting your personal data.
+          </p>
+          <p>
+            This website is designed to provide information about our product. We do not actively collect personal data from visitors.
+          </p>
+
+          <div class="split"></div>
+
+          <h3>2. Data collection</h3>
+          <p>We do <strong>not</strong>:</p>
+          <ul>
+            <li>Collect personal data through forms</li>
+            <li>Use analytics tools such as Google Analytics</li>
+            <li>Track visitors across sessions</li>
+            <li>Use cookies for tracking purposes</li>
+          </ul>
+
+          <div class="split"></div>
+
+          <h3>3. Server logs</h3>
+          <p>
+            Our hosting provider may automatically log basic technical information when you visit the website, such as:
+          </p>
+          <ul>
+            <li>IP address</li>
+            <li>Browser type</li>
+            <li>Date and time of access</li>
+          </ul>
+          <p>
+            This data is used for security and technical purposes only and is not used to identify visitors.
+          </p>
+
+          <div class="split"></div>
+
+          <h3>4. Cookies</h3>
+          <p>This website does <strong>not</strong> use cookies for tracking or analytics.</p>
+
+          <div class="split"></div>
+
+          <h3>5. Data sharing</h3>
+          <p>We do not sell, share, or transfer your personal data to third parties.</p>
+
+          <div class="split"></div>
+
+          <h3>6. Your rights</h3>
+          <p>
+            Under the General Data Protection Regulation (GDPR), you have the right to:
+          </p>
+          <ul>
+            <li>Request access to your personal data</li>
+            <li>Request correction or deletion</li>
+            <li>Lodge a complaint with your local data protection authority</li>
+          </ul>
+          <p>
+            Since we do not actively collect personal data, these rights will generally not apply in practice.
+          </p>
+
+          <div class="split"></div>
+
+          <h3>7. Contact</h3>
+          <p>
+            If you have any questions about this privacy policy, you can contact us at:
+            Email: <a href="mailto:gentlii@nlcy.nl">gentlii@nlcy.nl</a>
+          </p>
+
+          <div class="split"></div>
+
+          <h3>8. Changes</h3>
+          <p>We may update this privacy policy from time to time. Updates will be posted on this page.</p>
+        </section>
+      </main>
+
+      <footer class="site-footer" aria-label="Contact links">
+        <div class="footer-links">
+          <a class="footer-link" href="mailto:gentlii@nlcy.nl">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M3 5.5A2.5 2.5 0 0 1 5.5 3h13A2.5 2.5 0 0 1 21 5.5v13a2.5 2.5 0 0 1-2.5 2.5h-13A2.5 2.5 0 0 1 3 18.5zm2.03.5L12 11.28 18.97 6zM19 7.24l-6.4 4.85a1 1 0 0 1-1.2 0L5 7.24V18.5a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5z" />
+            </svg>
+            <span>Email</span>
+          </a>
+          <a class="footer-link" href="https://www.linkedin.com/company/gentlii/" target="_blank" rel="noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M6.94 8.5H3.56V20h3.38zM5.25 3A2.01 2.01 0 1 0 5.3 7a2.01 2.01 0 0 0-.05-4M20 13.08C20 9.71 18.2 8.14 15.81 8.14a3.85 3.85 0 0 0-3.46 1.9V8.5H9v11.5h3.35v-6.41c0-1.69.32-3.33 2.42-3.33 2.07 0 2.1 1.94 2.1 3.44V20H20z" />
+            </svg>
+            <span>LinkedIn</span>
+          </a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
