@@ -49,87 +49,206 @@
     <path
        id="flow-left-1"
        d="m 43.375498,37.896868 c 0.592224,-1.037975 54.817318,31.990221 57.342192,33.684705"
-       style="fill:none;stroke:#8ea7c2;stroke-width:0.6;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.642857, 1.28571;stroke-dashoffset:0"
-       sodipodi:nodetypes="cc">
-      <animate
-         attributeName="stroke-dashoffset"
-         from="0"
-         to="-18"
-         dur="6.8s"
-         repeatCount="indefinite" />
-    </path>
+       style="fill:none;stroke:#8fd8ff;stroke-opacity:0.15;stroke-width:0.6;stroke-linecap:round;stroke-linejoin:round"
+       sodipodi:nodetypes="cc" />
+    <circle
+       cx="0"
+       cy="0"
+       r="0.82"
+       style="fill:#b8ebff;fill-opacity:1">
+      <animateMotion
+         dur="4.1s"
+         begin="0.1s"
+         repeatCount="indefinite">
+        <mpath href="#flow-left-1" />
+      </animateMotion>
+    </circle>
+    <circle
+       cx="0"
+       cy="0"
+       r="0.64"
+       style="fill:#b8ebff;fill-opacity:0.96">
+      <animateMotion
+         dur="4.1s"
+         begin="1.9s"
+         repeatCount="indefinite">
+        <mpath href="#flow-left-1" />
+      </animateMotion>
+    </circle>
     <path
        id="flow-left-2"
        d="m 53.060553,54.687243 c 1.085023,0.663184 42.52131,14.035279 47.352177,17.478843"
-       style="fill:none;stroke:#8ea7c2;stroke-width:0.6;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.642857, 1.28571;stroke-dashoffset:0"
-       sodipodi:nodetypes="cc">
-      <animate
-         attributeName="stroke-dashoffset"
-         from="0"
-         to="-18"
-         dur="5.5s"
-         repeatCount="indefinite" />
-    </path>
+       style="fill:none;stroke:#8fd8ff;stroke-opacity:0.15;stroke-width:0.6;stroke-linecap:round;stroke-linejoin:round"
+       sodipodi:nodetypes="cc" />
+    <circle
+       cx="0"
+       cy="0"
+       r="0.82"
+       style="fill:#b8ebff;fill-opacity:1">
+      <animateMotion
+         dur="3.4s"
+         begin="0.45s"
+         repeatCount="indefinite">
+        <mpath href="#flow-left-2" />
+      </animateMotion>
+    </circle>
+    <circle
+       cx="0"
+       cy="0"
+       r="0.64"
+       style="fill:#b8ebff;fill-opacity:0.96">
+      <animateMotion
+         dur="3.4s"
+         begin="1.86s"
+         repeatCount="indefinite">
+        <mpath href="#flow-left-2" />
+      </animateMotion>
+    </circle>
     <path
        id="flow-left-3"
        d="m 40.682528,66.701628 c 0,0 42.258184,4.572488 59.603132,6.074386"
-       style="fill:none;stroke:#8ea7c2;stroke-width:0.6;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.642857, 1.28571;stroke-dashoffset:0"
-       sodipodi:nodetypes="cc">
-      <animate
-         attributeName="stroke-dashoffset"
-         from="0"
-         to="-18"
-         dur="6.2s"
-         repeatCount="indefinite" />
-    </path>
+       style="fill:none;stroke:#8fd8ff;stroke-opacity:0.15;stroke-width:0.6;stroke-linecap:round;stroke-linejoin:round"
+       sodipodi:nodetypes="cc" />
+    <circle
+       cx="0"
+       cy="0"
+       r="0.82"
+       style="fill:#b8ebff;fill-opacity:1">
+      <animateMotion
+         dur="3.7s"
+         begin="0.22s"
+         repeatCount="indefinite">
+        <mpath href="#flow-left-3" />
+      </animateMotion>
+    </circle>
+    <circle
+       cx="0"
+       cy="0"
+       r="0.64"
+       style="fill:#b8ebff;fill-opacity:0.96">
+      <animateMotion
+         dur="3.7s"
+         begin="1.74s"
+         repeatCount="indefinite">
+        <mpath href="#flow-left-3" />
+      </animateMotion>
+    </circle>
     <path
        id="flow-left-4"
        d="M 57.032306,77.898609 C 66.271067,76.861935 85.631134,75.59849 100.31107,73.309701"
-       style="fill:none;stroke:#8ea7c2;stroke-width:0.6;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.642857, 1.28571;stroke-dashoffset:0"
-       sodipodi:nodetypes="cc">
-      <animate
-         attributeName="stroke-dashoffset"
-         from="0"
-         to="-18"
-         dur="5.9s"
-         repeatCount="indefinite" />
-    </path>
+       style="fill:none;stroke:#8fd8ff;stroke-opacity:0.15;stroke-width:0.6;stroke-linecap:round;stroke-linejoin:round"
+       sodipodi:nodetypes="cc" />
+    <circle
+       cx="0"
+       cy="0"
+       r="0.82"
+       style="fill:#b8ebff;fill-opacity:1">
+      <animateMotion
+         dur="3.5s"
+         begin="0.68s"
+         repeatCount="indefinite">
+        <mpath href="#flow-left-4" />
+      </animateMotion>
+    </circle>
+    <circle
+       cx="0"
+       cy="0"
+       r="0.64"
+       style="fill:#b8ebff;fill-opacity:0.96">
+      <animateMotion
+         dur="3.5s"
+         begin="1.93s"
+         repeatCount="indefinite">
+        <mpath href="#flow-left-4" />
+      </animateMotion>
+    </circle>
     <path
        id="flow-left-5"
        d="M 41.839843,91.885299 C 63.499427,86.02906 71.616059,84.772448 100.7431,73.640078"
-       style="fill:none;stroke:#8ea7c2;stroke-width:0.6;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.642857, 1.28571;stroke-dashoffset:0"
-       sodipodi:nodetypes="cc">
-      <animate
-         attributeName="stroke-dashoffset"
-         from="0"
-         to="-18"
-         dur="6.4s"
-         repeatCount="indefinite" />
-    </path>
+       style="fill:none;stroke:#8fd8ff;stroke-opacity:0.15;stroke-width:0.6;stroke-linecap:round;stroke-linejoin:round"
+       sodipodi:nodetypes="cc" />
+    <circle
+       cx="0"
+       cy="0"
+       r="0.82"
+       style="fill:#b8ebff;fill-opacity:1">
+      <animateMotion
+         dur="3.9s"
+         begin="0.31s"
+         repeatCount="indefinite">
+        <mpath href="#flow-left-5" />
+      </animateMotion>
+    </circle>
+    <circle
+       cx="0"
+       cy="0"
+       r="0.64"
+       style="fill:#b8ebff;fill-opacity:0.96">
+      <animateMotion
+         dur="3.9s"
+         begin="2.08s"
+         repeatCount="indefinite">
+        <mpath href="#flow-left-5" />
+      </animateMotion>
+    </circle>
     <path
        id="flow-left-6"
        d="M 56.573053,103.49854 C 69.522378,94.865664 79.928392,90.207938 100.84476,74.097523"
-       style="fill:none;stroke:#8ea7c2;stroke-width:0.647466;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.693714, 1.38742;stroke-dashoffset:0"
-       sodipodi:nodetypes="cc">
-      <animate
-         attributeName="stroke-dashoffset"
-         from="0"
-         to="-18"
-         dur="5.7s"
-         repeatCount="indefinite" />
-    </path>
+       style="fill:none;stroke:#8fd8ff;stroke-opacity:0.15;stroke-width:0.647466;stroke-linecap:round;stroke-linejoin:round"
+       sodipodi:nodetypes="cc" />
+    <circle
+       cx="0"
+       cy="0"
+       r="0.82"
+       style="fill:#b8ebff;fill-opacity:1">
+      <animateMotion
+         dur="3.6s"
+         begin="0.57s"
+         repeatCount="indefinite">
+        <mpath href="#flow-left-6" />
+      </animateMotion>
+    </circle>
+    <circle
+       cx="0"
+       cy="0"
+       r="0.64"
+       style="fill:#b8ebff;fill-opacity:0.96">
+      <animateMotion
+         dur="3.6s"
+         begin="1.88s"
+         repeatCount="indefinite">
+        <mpath href="#flow-left-6" />
+      </animateMotion>
+    </circle>
     <path
        id="flow-right-main"
        d="m 185.83248,72.989373 c 9.63524,-0.247333 18.29983,0.0799 27.14808,-0.0201"
-       style="fill:none;stroke:#8ea7c2;stroke-width:0.6;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.68, 1.28;stroke-dashoffset:0"
-       sodipodi:nodetypes="cc">
-      <animate
-         attributeName="stroke-dashoffset"
-         from="0"
-         to="-18"
-         dur="5.1s"
-         repeatCount="indefinite" />
-    </path>
+       style="fill:none;stroke:#8fd8ff;stroke-opacity:0.15;stroke-width:0.6;stroke-linecap:round;stroke-linejoin:round"
+       sodipodi:nodetypes="cc" />
+    <circle
+       cx="0"
+       cy="0"
+       r="0.82"
+       style="fill:#b8ebff;fill-opacity:1">
+      <animateMotion
+         dur="2.6s"
+         begin="0.18s"
+         repeatCount="indefinite">
+        <mpath href="#flow-right-main" />
+      </animateMotion>
+    </circle>
+    <circle
+       cx="0"
+       cy="0"
+       r="0.64"
+       style="fill:#b8ebff;fill-opacity:0.96">
+      <animateMotion
+         dur="2.6s"
+         begin="0.96s"
+         repeatCount="indefinite">
+        <mpath href="#flow-right-main" />
+      </animateMotion>
+    </circle>
     <g
        id="input-brief"
        transform="matrix(0.56,0,0,0.56,33.813743,31.031646)">
@@ -555,8 +674,9 @@
          id="line46-glow">
         <animate
            attributeName="opacity"
-           values="0.22;0.42;0.22"
-           dur="2s"
+           values="0.14;0.58;0.2;0.36;0.14"
+           dur="1.18s"
+           begin="0.12s"
            repeatCount="indefinite" />
       </line>
       <line
@@ -599,8 +719,9 @@
          id="line48-glow">
         <animate
            attributeName="opacity"
-           values="0.24;0.45;0.24"
-           dur="2s"
+           values="0.18;0.34;0.62;0.22;0.18"
+           dur="1.34s"
+           begin="0.47s"
            repeatCount="indefinite" />
       </line>
       <line
@@ -643,8 +764,9 @@
          id="line50-glow">
         <animate
            attributeName="opacity"
-           values="0.2;0.4;0.2"
-           dur="2s"
+           values="0.12;0.48;0.24;0.56;0.12"
+           dur="1.09s"
+           begin="0.79s"
            repeatCount="indefinite" />
       </line>
       <line
@@ -687,8 +809,9 @@
          id="line52-glow">
         <animate
            attributeName="opacity"
-           values="0.22;0.42;0.22"
-           dur="2s"
+           values="0.16;0.3;0.54;0.2;0.16"
+           dur="1.52s"
+           begin="0.28s"
            repeatCount="indefinite" />
       </line>
       <line
@@ -731,8 +854,9 @@
          id="line54-glow">
         <animate
            attributeName="opacity"
-           values="0.24;0.45;0.24"
-           dur="2s"
+           values="0.2;0.6;0.26;0.42;0.2"
+           dur="1.27s"
+           begin="0.93s"
            repeatCount="indefinite" />
       </line>
       <line

@@ -23,15 +23,15 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="5.5736043"
-     inkscape:cx="238.44535"
-     inkscape:cy="146.04553"
-     inkscape:window-width="3408"
-     inkscape:window-height="1331"
+     inkscape:zoom="2.6"
+     inkscape:cx="238.46154"
+     inkscape:cy="146.15385"
+     inkscape:window-width="2720"
+     inkscape:window-height="1039"
      inkscape:window-x="26"
      inkscape:window-y="23"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="output-strategy"
      showguides="true"
      showgrid="true">
     <sodipodi:guide
@@ -85,41 +85,102 @@
     <path
        id="flow-left-2"
        d="m 23.768715,30.755069 c 0.344169,-0.06094 24.986359,0.0624 25.245569,0.1665"
-       style="fill:none;stroke:#8ea7c2;stroke-width:0.557954;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.597808, 1.19561;stroke-dashoffset:0"
-       sodipodi:nodetypes="cc">
-      <animate
-         attributeName="stroke-dashoffset"
-         from="0"
-         to="-18"
-         dur="5.5s"
-         repeatCount="indefinite" />
-    </path>
+       style="fill:none;stroke:#8fd8ff;stroke-opacity:0.15;stroke-width:0.557954;stroke-linecap:round;stroke-linejoin:round"
+       sodipodi:nodetypes="cc" />
+    <circle
+       cx="0"
+       cy="0"
+       r="0.82"
+       style="fill:#b8ebff;fill-opacity:1">
+      <animateMotion
+         dur="3.4s"
+         begin="0s"
+         repeatCount="indefinite">
+        <mpath href="#flow-left-2" />
+      </animateMotion>
+    </circle>
+    <circle
+       cx="0"
+       cy="0"
+       r="0.64"
+       style="fill:#b8ebff;fill-opacity:0.96">
+      <animateMotion
+         dur="3.4s"
+         begin="1.45s"
+         repeatCount="indefinite">
+        <mpath href="#flow-left-2" />
+      </animateMotion>
+    </circle>
     <path
        id="flow-right-main"
        d="m 104.84438,30.152822 c 11.57393,-0.227481 21.98191,0.07349 32.61051,-0.01849"
-       style="fill:none;stroke:#8ea7c2;stroke-width:0.630658;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.714746, 1.3454;stroke-dashoffset:0"
-       sodipodi:nodetypes="cc">
-      <animate
-         attributeName="stroke-dashoffset"
-         from="0"
-         to="-18"
-         dur="5.1s"
-         repeatCount="indefinite"
-         style="marker-end:" />
-    </path>
+       style="fill:none;stroke:#8fd8ff;stroke-opacity:0.15;stroke-width:0.630658;stroke-linecap:round;stroke-linejoin:round"
+       sodipodi:nodetypes="cc" />
+    <circle
+       cx="0"
+       cy="0"
+       r="0.82"
+       style="fill:#b8ebff;fill-opacity:1">
+      <animateMotion
+         dur="3s"
+         begin="0.35s"
+         repeatCount="indefinite">
+        <mpath href="#flow-right-main" />
+      </animateMotion>
+    </circle>
+    <circle
+       cx="0"
+       cy="0"
+       r="0.64"
+       style="fill:#b8ebff;fill-opacity:0.96">
+      <animateMotion
+         dur="3s"
+         begin="1.28s"
+         repeatCount="indefinite">
+        <mpath href="#flow-right-main" />
+      </animateMotion>
+    </circle>
+    <circle
+       cx="0"
+       cy="0"
+       r="0.56"
+       style="fill:#dff8ff;fill-opacity:0.88">
+      <animateMotion
+         dur="3s"
+         begin="2.06s"
+         repeatCount="indefinite">
+        <mpath href="#flow-right-main" />
+      </animateMotion>
+    </circle>
     <path
        id="flow-right-main-2"
        d="m 153.20977,31.075455 c 9.63524,-0.24733 18.29983,0.0799 27.14808,-0.0201"
-       style="fill:none;stroke:#8ea7c2;stroke-width:0.6;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.68, 1.28;stroke-dashoffset:0"
-       sodipodi:nodetypes="cc">
-      <animate
-         attributeName="stroke-dashoffset"
-         from="0"
-         to="-18"
-         dur="5.1s"
-         repeatCount="indefinite"
-         style="marker-end:" />
-    </path>
+       style="fill:none;stroke:#8fd8ff;stroke-opacity:0.15;stroke-width:0.6;stroke-linecap:round;stroke-linejoin:round"
+       sodipodi:nodetypes="cc" />
+    <circle
+       cx="0"
+       cy="0"
+       r="0.76"
+       style="fill:#b8ebff;fill-opacity:1">
+      <animateMotion
+         dur="2.6s"
+         begin="0.18s"
+         repeatCount="indefinite">
+        <mpath href="#flow-right-main-2" />
+      </animateMotion>
+    </circle>
+    <circle
+       cx="0"
+       cy="0"
+       r="0.6"
+       style="fill:#b8ebff;fill-opacity:0.94">
+      <animateMotion
+         dur="2.6s"
+         begin="0.96s"
+         repeatCount="indefinite">
+        <mpath href="#flow-right-main-2" />
+      </animateMotion>
+    </circle>
     <g
        id="gentlii-foundations-app"
        transform="translate(41.193174,25.457911)">
@@ -271,7 +332,7 @@
     </g>
     <g
        id="output-strategy"
-       transform="matrix(0.75850564,0,0,1,123.29521,0.79867681)">
+       transform="matrix(0.75850564,0,0,1,123.29521,0.26951014)">
       <rect
          x="0"
          y="5.3167272"
@@ -296,8 +357,9 @@
          id="line46-glow">
         <animate
            attributeName="opacity"
-           values="0.22;0.42;0.22"
-           dur="2s"
+           values="0.14;0.58;0.2;0.36;0.14"
+           dur="1.18s"
+           begin="0.12s"
            repeatCount="indefinite" />
       </line>
       <line
@@ -335,8 +397,9 @@
          id="line48-glow">
         <animate
            attributeName="opacity"
-           values="0.24;0.45;0.24"
-           dur="2s"
+           values="0.18;0.34;0.62;0.22;0.18"
+           dur="1.34s"
+           begin="0.47s"
            repeatCount="indefinite" />
       </line>
       <line
@@ -374,8 +437,9 @@
          id="line50-glow">
         <animate
            attributeName="opacity"
-           values="0.2;0.4;0.2"
-           dur="2s"
+           values="0.12;0.48;0.24;0.56;0.12"
+           dur="1.09s"
+           begin="0.79s"
            repeatCount="indefinite" />
       </line>
       <line
@@ -413,8 +477,9 @@
          id="line52-glow">
         <animate
            attributeName="opacity"
-           values="0.22;0.42;0.22"
-           dur="2s"
+           values="0.16;0.3;0.54;0.2;0.16"
+           dur="1.52s"
+           begin="0.28s"
            repeatCount="indefinite" />
       </line>
       <line
@@ -452,8 +517,9 @@
          id="line54-glow">
         <animate
            attributeName="opacity"
-           values="0.24;0.45;0.24"
-           dur="2s"
+           values="0.2;0.6;0.26;0.42;0.2"
+           dur="1.27s"
+           begin="0.93s"
            repeatCount="indefinite" />
       </line>
       <line

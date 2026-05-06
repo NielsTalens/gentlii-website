@@ -85,28 +85,61 @@
     <path
        id="flow-left-2"
        d="m 41.967838,41.182543 c 0.529582,-0.04581 38.447061,0.04687 38.845921,0.125131"
-       style="fill:none;stroke:#8ea7c2;stroke-width:0.6;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.642857, 1.28571;stroke-dashoffset:0"
-       sodipodi:nodetypes="cc">
-      <animate
-         attributeName="stroke-dashoffset"
-         from="0"
-         to="-18"
-         dur="5.5s"
-         repeatCount="indefinite" />
-    </path>
+       style="fill:none;stroke:#8fd8ff;stroke-opacity:0.15;stroke-width:0.6;stroke-linecap:round;stroke-linejoin:round"
+       sodipodi:nodetypes="cc" />
+    <circle
+       cx="0"
+       cy="0"
+       r="0.82"
+       style="fill:#b8ebff;fill-opacity:1">
+      <animateMotion
+         dur="3.4s"
+         begin="0s"
+         repeatCount="indefinite">
+        <mpath href="#flow-left-2" />
+      </animateMotion>
+    </circle>
+    <circle
+       cx="0"
+       cy="0"
+       r="0.64"
+       style="fill:#b8ebff;fill-opacity:0.96">
+      <animateMotion
+         dur="3.4s"
+         begin="1.45s"
+         repeatCount="indefinite">
+        <mpath href="#flow-left-2" />
+      </animateMotion>
+    </circle>
     <path
        id="flow-right-main"
        d="m 164.72807,41.274661 c 9.63524,-0.247333 18.29983,0.0799 27.14808,-0.0201"
-       style="fill:none;stroke:#8ea7c2;stroke-width:0.6;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.68, 1.28;stroke-dashoffset:0"
-       sodipodi:nodetypes="cc">
-      <animate
-         attributeName="stroke-dashoffset"
-         from="0"
-         to="-18"
-         dur="5.1s"
-         repeatCount="indefinite"
-         style="marker-end:" />
-    </path>
+       style="fill:none;stroke:#8fd8ff;stroke-opacity:0.15;stroke-width:0.6;stroke-linecap:round;stroke-linejoin:round"
+       sodipodi:nodetypes="cc" />
+    <circle
+       cx="0"
+       cy="0"
+       r="0.76"
+       style="fill:#b8ebff;fill-opacity:1">
+      <animateMotion
+         dur="2.6s"
+         begin="0.18s"
+         repeatCount="indefinite">
+        <mpath href="#flow-right-main" />
+      </animateMotion>
+    </circle>
+    <circle
+       cx="0"
+       cy="0"
+       r="0.6"
+       style="fill:#b8ebff;fill-opacity:0.94">
+      <animateMotion
+         dur="2.6s"
+         begin="0.96s"
+         repeatCount="indefinite">
+        <mpath href="#flow-right-main" />
+      </animateMotion>
+    </circle>
     <g
        id="gentlii-foundations-app"
        transform="translate(101.07654,39.421745)">
@@ -492,8 +525,9 @@
          id="line46-glow">
         <animate
            attributeName="opacity"
-           values="0.22;0.42;0.22"
-           dur="2s"
+           values="0.14;0.58;0.2;0.36;0.14"
+           dur="1.18s"
+           begin="0.12s"
            repeatCount="indefinite" />
       </line>
       <line
@@ -536,8 +570,9 @@
          id="line48-glow">
         <animate
            attributeName="opacity"
-           values="0.24;0.45;0.24"
-           dur="2s"
+           values="0.18;0.34;0.62;0.22;0.18"
+           dur="1.34s"
+           begin="0.47s"
            repeatCount="indefinite" />
       </line>
       <line
@@ -580,8 +615,9 @@
          id="line50-glow">
         <animate
            attributeName="opacity"
-           values="0.2;0.4;0.2"
-           dur="2s"
+           values="0.12;0.48;0.24;0.56;0.12"
+           dur="1.09s"
+           begin="0.79s"
            repeatCount="indefinite" />
       </line>
       <line
@@ -624,8 +660,9 @@
          id="line52-glow">
         <animate
            attributeName="opacity"
-           values="0.22;0.42;0.22"
-           dur="2s"
+           values="0.16;0.3;0.54;0.2;0.16"
+           dur="1.52s"
+           begin="0.28s"
            repeatCount="indefinite" />
       </line>
       <line
@@ -668,8 +705,9 @@
          id="line54-glow">
         <animate
            attributeName="opacity"
-           values="0.24;0.45;0.24"
-           dur="2s"
+           values="0.2;0.6;0.26;0.42;0.2"
+           dur="1.27s"
+           begin="0.93s"
            repeatCount="indefinite" />
       </line>
       <line

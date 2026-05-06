@@ -154,46 +154,146 @@
        inkscape:transform-center-x="-0.34339174"
        inkscape:transform-center-y="-3.6005168"
        transform="matrix(0.85252533,0,0,0.83799898,-39.343753,7.7071293)">
-      <line
-         x1="163.25"
-         y1="20"
-         x2="163.25"
-         y2="78.199997"
-         style="fill:none;stroke:#8ea7c2;stroke-width:0.57144145;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.7347105,1.30615195;stroke-dashoffset:0"
-         class="flow-line"
+      <path
+         d="M 163.25,20 V 78.199997"
+         style="fill:none;stroke:#8fd8ff;stroke-opacity:0.15;stroke-width:0.57144145;stroke-linecap:round;stroke-linejoin:round"
          id="connector-strategy" />
-      <line
-         x1="219.37"
-         y1="60.02"
-         x2="163.25"
-         y2="78.199997"
-         style="fill:none;stroke:#8ea7c2;stroke-width:0.57144145;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.73471054,1.30615214;stroke-dashoffset:0"
-         class="flow-line"
+      <circle
+         cx="0"
+         cy="0"
+         r="0.82"
+         style="fill:#b8ebff;fill-opacity:1">
+        <animateMotion
+           dur="3.7s"
+           begin="0.08s"
+           repeatCount="indefinite">
+          <mpath href="#connector-strategy" />
+        </animateMotion>
+      </circle>
+      <circle
+         cx="0"
+         cy="0"
+         r="0.64"
+         style="fill:#b8ebff;fill-opacity:0.96">
+        <animateMotion
+           dur="3.7s"
+           begin="1.76s"
+           repeatCount="indefinite">
+          <mpath href="#connector-strategy" />
+        </animateMotion>
+      </circle>
+      <path
+         d="M 219.37,60.02 163.25,78.199997"
+         style="fill:none;stroke:#8fd8ff;stroke-opacity:0.15;stroke-width:0.57144145;stroke-linecap:round;stroke-linejoin:round"
          id="connector-product-vision" />
-      <line
-         x1="197.92999"
-         y1="124.78"
-         x2="163.25"
-         y2="78.199997"
-         style="fill:none;stroke:#8ea7c2;stroke-width:0.57144145;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.73471054,1.30615214;stroke-dashoffset:0"
-         class="flow-line"
+      <circle
+         cx="0"
+         cy="0"
+         r="0.82"
+         style="fill:#b8ebff;fill-opacity:1">
+        <animateMotion
+           dur="3.3s"
+           begin="0.42s"
+           repeatCount="indefinite">
+          <mpath href="#connector-product-vision" />
+        </animateMotion>
+      </circle>
+      <circle
+         cx="0"
+         cy="0"
+         r="0.64"
+         style="fill:#b8ebff;fill-opacity:0.96">
+        <animateMotion
+           dur="3.3s"
+           begin="1.81s"
+           repeatCount="indefinite">
+          <mpath href="#connector-product-vision" />
+        </animateMotion>
+      </circle>
+      <path
+         d="M 197.92999,124.78 163.25,78.199997"
+         style="fill:none;stroke:#8fd8ff;stroke-opacity:0.15;stroke-width:0.57144145;stroke-linecap:round;stroke-linejoin:round"
          id="connector-jtbd" />
-      <line
-         x1="128.57001"
-         y1="124.78"
-         x2="163.25"
-         y2="78.199997"
-         style="fill:none;stroke:#8ea7c2;stroke-width:0.57144145;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.73471054,1.30615214;stroke-dashoffset:0"
-         class="flow-line"
+      <circle
+         cx="0"
+         cy="0"
+         r="0.82"
+         style="fill:#b8ebff;fill-opacity:1">
+        <animateMotion
+           dur="3.5s"
+           begin="0.24s"
+           repeatCount="indefinite">
+          <mpath href="#connector-jtbd" />
+        </animateMotion>
+      </circle>
+      <circle
+         cx="0"
+         cy="0"
+         r="0.64"
+         style="fill:#b8ebff;fill-opacity:0.96">
+        <animateMotion
+           dur="3.5s"
+           begin="1.63s"
+           repeatCount="indefinite">
+          <mpath href="#connector-jtbd" />
+        </animateMotion>
+      </circle>
+      <path
+         d="M 128.57001,124.78 163.25,78.199997"
+         style="fill:none;stroke:#8fd8ff;stroke-opacity:0.15;stroke-width:0.57144145;stroke-linecap:round;stroke-linejoin:round"
          id="connector-product-charter" />
-      <line
-         x1="107.13"
-         y1="60.02"
-         x2="163.25"
-         y2="78.199997"
-         style="fill:none;stroke:#8ea7c2;stroke-width:0.57144145;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.7347105,1.30615195;stroke-dashoffset:0"
-         class="flow-line"
+      <circle
+         cx="0"
+         cy="0"
+         r="0.82"
+         style="fill:#b8ebff;fill-opacity:1">
+        <animateMotion
+           dur="3.4s"
+           begin="0.58s"
+           repeatCount="indefinite">
+          <mpath href="#connector-product-charter" />
+        </animateMotion>
+      </circle>
+      <circle
+         cx="0"
+         cy="0"
+         r="0.64"
+         style="fill:#b8ebff;fill-opacity:0.96">
+        <animateMotion
+           dur="3.4s"
+           begin="1.96s"
+           repeatCount="indefinite">
+          <mpath href="#connector-product-charter" />
+        </animateMotion>
+      </circle>
+      <path
+         d="M 107.13,60.02 163.25,78.199997"
+         style="fill:none;stroke:#8fd8ff;stroke-opacity:0.15;stroke-width:0.57144145;stroke-linecap:round;stroke-linejoin:round"
          id="connector-business-case" />
+      <circle
+         cx="0"
+         cy="0"
+         r="0.82"
+         style="fill:#b8ebff;fill-opacity:1">
+        <animateMotion
+           dur="3.2s"
+           begin="0.35s"
+           repeatCount="indefinite">
+          <mpath href="#connector-business-case" />
+        </animateMotion>
+      </circle>
+      <circle
+         cx="0"
+         cy="0"
+         r="0.64"
+         style="fill:#b8ebff;fill-opacity:0.96">
+        <animateMotion
+           dur="3.2s"
+           begin="1.62s"
+           repeatCount="indefinite">
+          <mpath href="#connector-business-case" />
+        </animateMotion>
+      </circle>
     </g>
     <g
        id="gentlii-foundations-app"
@@ -389,8 +489,14 @@
          x2="36"
          y2="10.2"
          style="opacity:0.35;stroke:#407d73;stroke-width:5.2;stroke-linecap:round"
-         class="card-accent-glow"
-         id="line46-glow" />
+         id="line46-glow">
+        <animate
+           attributeName="opacity"
+           values="0.14;0.58;0.2;0.36;0.14"
+           dur="1.18s"
+           begin="0.12s"
+           repeatCount="indefinite" />
+      </line>
       <line
          x1="31"
          y1="10.2"
@@ -429,8 +535,14 @@
          x2="36"
          y2="10.2"
          style="opacity:0.38;stroke:#ff9f43;stroke-width:5.2;stroke-linecap:round"
-         class="card-accent-glow"
-         id="line48-glow" />
+         id="line48-glow">
+        <animate
+           attributeName="opacity"
+           values="0.18;0.34;0.62;0.22;0.18"
+           dur="1.34s"
+           begin="0.47s"
+           repeatCount="indefinite" />
+      </line>
       <line
          x1="29"
          y1="10.2"
@@ -469,8 +581,14 @@
          x2="36"
          y2="10.2"
          style="opacity:0.34;stroke:#2a6f9e;stroke-width:5.2;stroke-linecap:round"
-         class="card-accent-glow"
-         id="line50-glow" />
+         id="line50-glow">
+        <animate
+           attributeName="opacity"
+           values="0.12;0.48;0.24;0.56;0.12"
+           dur="1.09s"
+           begin="0.79s"
+           repeatCount="indefinite" />
+      </line>
       <line
          x1="30"
          y1="10.2"
@@ -509,8 +627,14 @@
          x2="36"
          y2="10.2"
          style="opacity:0.35;stroke:#407d73;stroke-width:5.2;stroke-linecap:round"
-         class="card-accent-glow"
-         id="line52-glow" />
+         id="line52-glow">
+        <animate
+           attributeName="opacity"
+           values="0.16;0.3;0.54;0.2;0.16"
+           dur="1.52s"
+           begin="0.28s"
+           repeatCount="indefinite" />
+      </line>
       <line
          x1="27"
          y1="10.2"
@@ -549,8 +673,14 @@
          x2="36"
          y2="10.2"
          style="opacity:0.38;stroke:#b07cff;stroke-width:5.2;stroke-linecap:round"
-         class="card-accent-glow"
-         id="line54-glow" />
+         id="line54-glow">
+        <animate
+           attributeName="opacity"
+           values="0.2;0.6;0.26;0.42;0.2"
+           dur="1.27s"
+           begin="0.93s"
+           repeatCount="indefinite" />
+      </line>
       <line
          x1="26"
          y1="10.2"
