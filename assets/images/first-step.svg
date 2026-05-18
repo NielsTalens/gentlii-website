@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="273mm"
+   height="159mm"
+   viewBox="0 0 273 159"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   sodipodi:docname="first-step.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="2.6027681"
+     inkscape:cx="649.11661"
+     inkscape:cy="265.10237"
+     inkscape:window-width="1352"
+     inkscape:window-height="1039"
+     inkscape:window-x="26"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="gentlii-foundations-app" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       id="background"
+       x="8"
+       y="10"
+       width="281"
+       height="190"
+       rx="12"
+       style="fill:none;stroke:none" />
+    <circle
+       cx="0"
+       cy="0"
+       r="0.82"
+       style="fill:#b8ebff;fill-opacity:1"
+       id="circle1">
+      <animateMotion
+         dur="4.1s"
+         begin="0.1s"
+         repeatCount="indefinite">
+        <mpath
+           href="#flow-left-1" />
+      </animateMotion>
+    </circle>
+    <circle
+       cx="0"
+       cy="0"
+       r="0.64"
+       style="fill:#b8ebff;fill-opacity:0.96"
+       id="circle2">
+      <animateMotion
+         dur="4.1s"
+         begin="1.9s"
+         repeatCount="indefinite">
+        <mpath
+           href="#flow-left-1" />
+      </animateMotion>
+    </circle>
+    <path
+       id="flow-left-2"
+       d="m 52.454771,77.462017 c 1.071656,0.08021 41.387558,0.170861 47.785389,0.29815"
+       style="fill:none;stroke:#8fd8ff;stroke-width:0.608292;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.15"
+       sodipodi:nodetypes="cc" />
+    <circle
+       cx="0"
+       cy="0"
+       r="0.82"
+       style="fill:#b8ebff;fill-opacity:1"
+       id="circle3">
+      <animateMotion
+         dur="3.4s"
+         begin="0.45s"
+         repeatCount="indefinite">
+        <mpath
+           href="#flow-left-2" />
+      </animateMotion>
+    </circle>
+    <circle
+       cx="0"
+       cy="0"
+       r="0.64"
+       style="fill:#b8ebff;fill-opacity:0.96"
+       id="circle4">
+      <animateMotion
+         dur="3.4s"
+         begin="1.86s"
+         repeatCount="indefinite">
+        <mpath
+           href="#flow-left-2" />
+      </animateMotion>
+    </circle>
+    <circle
+       cx="0"
+       cy="0"
+       r="0.82"
+       style="fill:#b8ebff;fill-opacity:1"
+       id="circle5">
+      <animateMotion
+         dur="3.7s"
+         begin="0.22s"
+         repeatCount="indefinite">
+        <mpath
+           href="#flow-left-3" />
+      </animateMotion>
+    </circle>
+    <circle
+       cx="0"
+       cy="0"
+       r="0.64"
+       style="fill:#b8ebff;fill-opacity:0.96"
+       id="circle6">
+      <animateMotion
+         dur="3.7s"
+         begin="1.74s"
+         repeatCount="indefinite">
+        <mpath
+           href="#flow-left-3" />
+      </animateMotion>
+    </circle>
+    <circle
+       cx="0"
+       cy="0"
+       r="0.82"
+       style="fill:#b8ebff;fill-opacity:1"
+       id="circle7">
+      <animateMotion
+         dur="3.5s"
+         begin="0.68s"
+         repeatCount="indefinite">
+        <mpath
+           href="#flow-left-4" />
+      </animateMotion>
+    </circle>
+    <circle
+       cx="0"
+       cy="0"
+       r="0.64"
+       style="fill:#b8ebff;fill-opacity:0.96"
+       id="circle8">
+      <animateMotion
+         dur="3.5s"
+         begin="1.93s"
+         repeatCount="indefinite">
+        <mpath
+           href="#flow-left-4" />
+      </animateMotion>
+    </circle>
+    <circle
+       cx="0"
+       cy="0"
+       r="0.82"
+       style="fill:#b8ebff;fill-opacity:1"
+       id="circle9">
+      <animateMotion
+         dur="3.9s"
+         begin="0.31s"
+         repeatCount="indefinite">
+        <mpath
+           href="#flow-left-5" />
+      </animateMotion>
+    </circle>
+    <circle
+       cx="0"
+       cy="0"
+       r="0.64"
+       style="fill:#b8ebff;fill-opacity:0.96"
+       id="circle10">
+      <animateMotion
+         dur="3.9s"
+         begin="2.08s"
+         repeatCount="indefinite">
+        <mpath
+           href="#flow-left-5" />
+      </animateMotion>
+    </circle>
+    <circle
+       cx="0"
+       cy="0"
+       r="0.82"
+       style="fill:#b8ebff;fill-opacity:1"
+       id="circle11">
+      <animateMotion
+         dur="3.6s"
+         begin="0.57s"
+         repeatCount="indefinite">
+        <mpath
+           href="#flow-left-6" />
+      </animateMotion>
+    </circle>
+    <circle
+       cx="0"
+       cy="0"
+       r="0.64"
+       style="fill:#b8ebff;fill-opacity:0.96"
+       id="circle12">
+      <animateMotion
+         dur="3.6s"
+         begin="1.88s"
+         repeatCount="indefinite">
+        <mpath
+           href="#flow-left-6" />
+      </animateMotion>
+    </circle>
+    <path
+       id="flow-right-main"
+       d="m 142.62928,77.258866 c 9.63524,-0.247333 18.29983,0.0799 27.14808,-0.0201"
+       style="fill:none;stroke:#8fd8ff;stroke-width:0.6;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.15"
+       sodipodi:nodetypes="cc" />
+    <circle
+       cx="0"
+       cy="0"
+       r="0.82"
+       style="fill:#b8ebff;fill-opacity:1"
+       id="circle13">
+      <animateMotion
+         dur="2.6s"
+         begin="0.18s"
+         repeatCount="indefinite">
+        <mpath
+           href="#flow-right-main" />
+      </animateMotion>
+    </circle>
+    <circle
+       cx="0"
+       cy="0"
+       r="0.64"
+       style="fill:#b8ebff;fill-opacity:0.96"
+       id="circle14">
+      <animateMotion
+         dur="2.6s"
+         begin="0.96s"
+         repeatCount="indefinite">
+        <mpath
+           href="#flow-right-main" />
+      </animateMotion>
+    </circle>
+    <g
+       id="input-brief"
+       transform="matrix(0.56,0,0,0.56,33.813743,31.031646)">
+      <path
+         d="m 0,0 h 14 l 6,6 V 24 H 0 Z"
+         style="fill:#1c355b;stroke:#aec0d2;stroke-width:1;stroke-linejoin:round"
+         id="path1" />
+      <path
+         d="m 14,0 v 6 h 6"
+         style="fill:none;stroke:#aec0d2;stroke-width:1;stroke-linejoin:round"
+         id="path2" />
+      <rect
+         x="4"
+         y="4"
+         width="8"
+         height="3"
+         rx="1.3"
+         style="fill:#d4e3f5;stroke:none"
+         id="rect6" />
+      <text
+         x="2.7293177"
+         y="13.406024"
+         style="font-weight:700;font-size:6.2996px;font-family:Arial;fill:#dfe9f5"
+         id="text6">Brief</text>
+      <line
+         x1="4"
+         y1="15.5"
+         x2="16"
+         y2="15.5"
+         style="stroke:#aec0d2;stroke-width:1.2;stroke-linecap:round"
+         id="line6" />
+      <line
+         x1="4"
+         y1="18.700001"
+         x2="14.5"
+         y2="18.700001"
+         style="stroke:#aec0d2;stroke-width:1.2;stroke-linecap:round"
+         id="line7" />
+    </g>
+    <g
+       id="input-notes"
+       transform="matrix(0.56,0,0,0.56,45.420466,71.045605)">
+      <path
+         d="m 0,0 h 14 l 6,6 V 24 H 0 Z"
+         style="fill:#1c355b;stroke:#aec0d2;stroke-width:1;stroke-linejoin:round"
+         id="path8" />
+      <path
+         d="m 14,0 v 6 h 6"
+         style="fill:none;stroke:#aec0d2;stroke-width:1;stroke-linejoin:round"
+         id="path9" />
+      <rect
+         x="4"
+         y="4"
+         width="8"
+         height="3"
+         rx="1.3"
+         style="fill:#dbe9d8;stroke:none"
+         id="rect13" />
+      <text
+         x="1.1863462"
+         y="12.952209"
+         style="font-weight:700;font-size:6.2996px;font-family:Arial;fill:#dfe9f5"
+         id="text13">Preso</text>
+      <line
+         x1="4"
+         y1="15.5"
+         x2="16"
+         y2="15.5"
+         style="stroke:#aec0d2;stroke-width:1.2;stroke-linecap:round"
+         id="line13" />
+      <line
+         x1="4"
+         y1="18.700001"
+         x2="14.5"
+         y2="18.700001"
+         style="stroke:#aec0d2;stroke-width:1.2;stroke-linecap:round"
+         id="line14" />
+    </g>
+    <g
+       id="input-research"
+       transform="matrix(0.56,0,0,0.56,30.363472,58.712477)">
+      <path
+         d="m 0,0 h 14 l 6,6 V 24 H 0 Z"
+         style="fill:#1c355b;stroke:#aec0d2;stroke-width:1;stroke-linejoin:round"
+         id="path15" />
+      <path
+         d="m 14,0 v 6 h 6"
+         style="fill:none;stroke:#aec0d2;stroke-width:1;stroke-linejoin:round"
+         id="path16" />
+      <rect
+         x="3.3646588"
+         y="3.0923698"
+         width="8.2755022"
+         height="3"
+         rx="1.0758153"
+         style="fill:#f4e0d0;stroke:none;stroke-width:0.909698"
+         id="rect20" />
+      <text
+         x="3.0152607"
+         y="13.224498"
+         style="font-weight:700;font-size:6.2996px;font-family:Arial;fill:#dfe9f5"
+         id="text20">UX</text>
+      <line
+         x1="4"
+         y1="15.5"
+         x2="16"
+         y2="15.5"
+         style="stroke:#aec0d2;stroke-width:1.2;stroke-linecap:round"
+         id="line20" />
+      <line
+         x1="4"
+         y1="18.700001"
+         x2="14.5"
+         y2="18.700001"
+         style="stroke:#aec0d2;stroke-width:1.2;stroke-linecap:round"
+         id="line21" />
+    </g>
+    <g
+       id="input-email"
+       transform="matrix(0.56,0,0,0.56,44.881799,48.534335)">
+      <rect
+         x="0"
+         y="0"
+         width="20"
+         height="24"
+         rx="4"
+         style="fill:#1c355b;stroke:#aec0d2;stroke-width:1"
+         id="path22" />
+      <rect
+         x="2.9178255"
+         y="6.8668208"
+         width="14.345875"
+         height="9.5639172"
+         rx="1.6736854"
+         style="fill:none;stroke:#aec0d2;stroke-width:1.19549"
+         id="path23" />
+      <path
+         d="M 3.5486983,8.2481152 9.7652446,12.551878 15.981791,8.2481152"
+         style="fill:none;stroke:#aec0d2;stroke-width:1.19549;stroke-linecap:round;stroke-linejoin:round"
+         id="path24" />
+    </g>
+    <g
+       id="input-chats"
+       transform="matrix(0.56,0,0,0.56,31.944846,84.530741)">
+      <rect
+         x="0"
+         y="0"
+         width="20"
+         height="24"
+         rx="4"
+         style="fill:#1c355b;stroke:#aec0d2;stroke-width:1"
+         id="rect28" />
+      <path
+         d="m 10.367376,5.9215939 h 4.198147 c 1.335925,0 2.418906,1.0829814 2.418906,2.4189063 v 4.8378118 c 0,1.335925 -1.082981,2.418907 -2.418906,2.418907 H 9.7277105 l -3.628359,2.418906 V 15.597219 H 4.8898984 c -1.3359253,0 -2.4189067,-1.082982 -2.4189063,-2.418907 V 8.3405002 c 0,-1.3359251 1.0829812,-2.4189063 2.4189063,-2.4189063 z"
+         style="fill:none;stroke:#aec0d2;stroke-width:1.20945;stroke-linejoin:round"
+         id="path28"
+         sodipodi:nodetypes="csssscccssscc" />
+      <line
+         x1="6.0993514"
+         y1="10.759406"
+         x2="13.356071"
+         y2="10.759406"
+         style="stroke:#aec0d2;stroke-width:1.20945;stroke-linecap:round"
+         id="line28" />
+      <line
+         x1="6.0993514"
+         y1="13.178312"
+         x2="12.146617"
+         y2="13.178312"
+         style="stroke:#aec0d2;stroke-width:1.20945;stroke-linecap:round"
+         id="line29" />
+    </g>
+    <g
+       id="input-people"
+       transform="matrix(0.56,0,0,0.56,45.424955,96.530741)">
+      <rect
+         x="0"
+         y="0"
+         width="20"
+         height="24"
+         rx="4"
+         style="fill:#1c355b;stroke:#aec0d2;stroke-width:1"
+         id="rect30-left" />
+      <circle
+         cx="9.9174881"
+         cy="9.3944502"
+         r="4.039649"
+         style="fill:none;stroke:#aec0d2;stroke-width:1.34655"
+         id="circle30" />
+      <path
+         d="m 3.8580143,18.820298 c 1.6158597,-2.962409 4.0396492,-4.443614 6.0594741,-4.443614 2.0198236,0 4.4436136,1.481205 6.0594736,4.443614"
+         style="fill:none;stroke:#aec0d2;stroke-width:1.34655;stroke-linecap:round;stroke-linejoin:round"
+         id="path30" />
+    </g>
+    <g
+       id="gentlii-foundations-app"
+       transform="matrix(0.94496788,0,0,1.084303,170.40533,51.334249)"
+       style="display:inline">
+      <rect
+         x="-0.53991371"
+         y="-12.936673"
+         width="51.981735"
+         height="67.171379"
+         rx="3.6692991"
+         style="fill:#11233f;stroke:#1c2a47;stroke-width:0.939619"
+         id="rect30" />
+      <rect
+         x="-0.36407906"
+         y="-13.369061"
+         width="51.981735"
+         height="11.028137"
+         rx="3.6692991"
+         style="fill:#1c355b;stroke:none;stroke-width:0.783016"
+         id="rect31" />
+      <rect
+         x="-0.51166588"
+         y="-7.2822671"
+         width="52.083622"
+         height="5"
+         style="fill:#1c355b;stroke:none;stroke-width:0.782783"
+         id="rect32" />
+      <text
+         x="12.853958"
+         y="-5.5196824"
+         style="font-size:6.17344px;font-family:Arial;fill:#d8e3f2"
+         id="text34"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold'"
+           id="tspan14">Backlog</tspan></text>
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer2"
+       inkscape:label="Layer 2">
+      <rect
+         x="98.0942"
+         y="60.899502"
+         width="44"
+         height="31.357143"
+         rx="4"
+         style="display:inline;fill:#1a2e4d;stroke:none;stroke-width:1.25214"
+         id="rect36" />
+      <text
+         x="103.24429"
+         y="69.199684"
+         style="font-weight:700;font-size:4px;font-family:Arial;display:inline;fill:#dfe9f5"
+         id="text43">Found objective</text>
+      <line
+         x1="103.38805"
+         y1="74.199684"
+         x2="137.38805"
+         y2="74.199684"
+         style="display:inline;stroke:#8ea7c2;stroke-width:1.1"
+         id="line43" />
+      <line
+         x1="103.24429"
+         y1="77.141342"
+         x2="133.24429"
+         y2="77.141342"
+         style="display:inline;stroke:#8ea7c2;stroke-width:1.1"
+         id="line44" />
+      <line
+         x1="103.18749"
+         y1="83.629173"
+         x2="133.1875"
+         y2="83.629173"
+         style="display:inline;stroke:#8ea7c2;stroke-width:1.1"
+         id="line44-9" />
+      <line
+         x1="103.24429"
+         y1="80.083008"
+         x2="139.24429"
+         y2="80.083008"
+         style="display:inline;stroke:#8ea7c2;stroke-width:1.1"
+         id="line45" />
+    </g>
+    <g
+       id="output-strategy"
+       transform="translate(173.29595,49.723651)">
+      <rect
+         x="0"
+         y="2.1166666"
+         width="42"
+         height="10"
+         rx="3"
+         style="fill:#1c355b;stroke:none;stroke-width:0.816497"
+         id="rect46" />
+      <text
+         x="4"
+         y="7.3583336"
+         style="font-weight:700;font-size:3.9px;font-family:Arial;fill:#dfe9f5"
+         id="text46">Work item</text>
+      <line
+         x1="4"
+         y1="10.2"
+         x2="29"
+         y2="10.2"
+         style="stroke:#8ea7c2;stroke-width:1.2;stroke-linecap:round"
+         id="line46" />
+    </g>
+    <g
+       id="output-business-case"
+       transform="translate(173.29595,60.256979)">
+      <rect
+         x="0"
+         y="2.6458333"
+         width="42"
+         height="10"
+         rx="3"
+         style="fill:#1c355b;stroke:none;stroke-width:0.816497"
+         id="rect48" />
+      <text
+         x="4"
+         y="7.3583336"
+         style="font-weight:700;font-size:3.9px;font-family:Arial;fill:#dfe9f5"
+         id="text48">Work item</text>
+      <line
+         x1="4.1438017"
+         y1="10.2"
+         x2="32.656197"
+         y2="10.2"
+         style="stroke:#8ea7c2;stroke-width:1.33609;stroke-linecap:round"
+         id="line48" />
+    </g>
+    <g
+       id="output-product-vision"
+       transform="translate(173.29595,71.319474)">
+      <rect
+         x="0"
+         y="2.6458333"
+         width="42"
+         height="10"
+         rx="3"
+         style="fill:#1c355b;stroke:none;stroke-width:0.816497"
+         id="rect50" />
+      <text
+         x="4"
+         y="7.3583336"
+         style="font-weight:700;font-size:3.9px;font-family:Arial;fill:#dfe9f5"
+         id="text50">Work item</text>
+      <line
+         x1="5.8140116"
+         y1="10.37704"
+         x2="24.455126"
+         y2="10.37704"
+         style="opacity:0.35;stroke:#407d73;stroke-width:7.48373;stroke-linecap:round"
+         id="line52-glow">
+        <animate
+           attributeName="opacity"
+           values="0.16;0.3;0.54;0.2;0.16"
+           dur="1.52s"
+           begin="0.28s"
+           repeatCount="indefinite" />
+      </line>
+      <line
+         x1="5.4241176"
+         y1="10.30516"
+         x2="25.06048"
+         y2="10.30516"
+         style="stroke:#407d73;stroke-width:2.9542;stroke-linecap:round"
+         id="line53" />
+    </g>
+    <g
+       id="output-jtbd"
+       transform="translate(173.29595,82.381974)">
+      <rect
+         x="0"
+         y="2.6458333"
+         width="42"
+         height="10"
+         rx="3"
+         style="display:inline;fill:#1c355b;stroke:none;stroke-width:0.816497"
+         id="rect52" />
+      <text
+         x="4"
+         y="7.3583336"
+         style="font-weight:700;font-size:3.8px;font-family:Arial;fill:#dfe9f5"
+         id="text52">Work item</text>
+      <line
+         x1="4"
+         y1="10.2"
+         x2="25"
+         y2="10.2"
+         style="stroke:#8ea7c2;stroke-width:1.2;stroke-linecap:round"
+         id="line52" />
+    </g>
+    <g
+       id="output-product-charter"
+       transform="translate(173.29595,126.25283)">
+      <rect
+         x="0"
+         y="-30.162508"
+         width="42"
+         height="10"
+         rx="3"
+         style="fill:#1c355b;stroke:none;stroke-width:0.816497"
+         id="rect54"
+         inkscape:label="rect54" />
+      <text
+         x="4"
+         y="-25.450003"
+         style="font-weight:700;font-size:3.8px;font-family:Arial;fill:#dfe9f5"
+         id="text54">Work item</text>
+      <line
+         x1="4"
+         y1="-22.608332"
+         x2="24"
+         y2="-22.608332"
+         style="stroke:#8ea7c2;stroke-width:1.2;stroke-linecap:round"
+         id="line54" />
+    </g>
+  </g>
+</svg>
