@@ -238,7 +238,6 @@
       .eyebrow {
         display: inline-block;
         margin-bottom: 16px;
-        color: var(--accent);
         font-size: 0.78rem;
         font-weight: 700;
         letter-spacing: 0.16em;
@@ -252,6 +251,7 @@
       }
 
       .module-intro {
+        color: var(--accent);
         position: relative;
       }
 
@@ -273,14 +273,19 @@
         z-index: 1;
       }
 
-      .foundations-inline-visual {
+      .module-inline-visual {
         margin: 26px 0 26px;
       }
 
-      .foundations-inline-visual img {
+      .module-inline-visual img {
         width: min(100%, 1024px);
         height: auto;
         display: block;
+        margin-inline: auto;
+      }
+
+      .product-guard-visual img {
+        width: min(75%, 768px);
       }
 
       p {
@@ -451,6 +456,60 @@
       </section>
 
       <main>
+
+        <section class="section" id="feature-validator">
+          <div class="section-card">
+            <span class="eyebrow">Suite Module</span>
+            <h2>Gentlii Feature Validation</h2>
+
+            <h3>
+              Ideas are often judged by intuition. This leads to inconsistency.
+              Gentlii Feature Validation replaces intuition with structured
+              evaluation.
+            </h3>
+            <div class="module-inline-visual">
+              <img src="assets/images/feature-validation.svg" alt="Gentlii Feature Validator visual" />
+            </div>
+
+            <div class="split"></div>
+
+            <h3>Fast and complete validation</h3>
+            <div class="module-intro">
+              <p>Fast decisions often reduce quality. Careful decisions often take too long.
+              Gentlii Feature Validator removes that trade-off by checking every feature request against the full product definition.
+              Every idea gets the same structured evaluation: clear reasoning, no guesswork.
+              </p>
+            </div>
+          </div>
+        </section>
+
+
+        <section class="section" id="product-guard">
+          <div class="section-card">
+            <span class="eyebrow">Suite Module</span>
+            <h2>Gentlii Product Guard</h2>
+
+            <h3>
+              Product definitions are not static. Without continuous validation,
+              misalignment goes unnoticed and building the wrong things become a
+              great risk.
+            </h3>
+            <div class="module-inline-visual product-guard-visual">
+              <img src="assets/images/product-guard.svg" alt="Gentlii Product Guard visual" />
+            </div>
+
+            <div class="split"></div>
+
+            <h3>Continuous validation</h3>
+            <div class="module-intro">
+              <p>
+                Gentlii Product Guard continuously validates alignment across all product definition elements.
+                It automatically detects gaps, conflicts, and inconsistencies, ensuring the product remains coherent as it evolves.
+              </p>
+            </div>
+          </div>
+        </section>
+
         <section class="section" id="foundations">
           <div class="section-card">
             <span class="eyebrow">Suite Module</span>
@@ -461,7 +520,7 @@
               those foundations are often missing, outdated, or fragmented. 
               Without this, every decision becomes a guess.
             </h3>
-            <div class="foundations-inline-visual">
+            <div class="module-inline-visual">
               <img src="assets/images/foundations.svg" alt="Gentlii Foundations visual" />
             </div>
 
@@ -483,58 +542,6 @@
             <p>Any type of document. Any type of information.
               Gentlii structures, connects, and highlights gaps.
               <br />No invention. Just clarity and structure.</p>
-          </div>
-        </section>
-
-        <section class="section" id="product-guard">
-          <div class="section-card">
-            <span class="eyebrow">Suite Module</span>
-            <h2>Gentlii Product Guard</h2>
-
-            <h3>
-              Product definitions are not static. Without continuous validation,
-              misalignment goes unnoticed and building the wrong things become a
-              great risk.
-            </h3>
-            <div class="foundations-inline-visual">
-              <img src="assets/images/product-guard.svg" alt="Gentlii Product Guard visual" />
-            </div>
-
-            <div class="split"></div>
-
-            <h3>Continuous validation</h3>
-            <div class="module-intro">
-              <p>
-                Gentlii Product Guard continuously validates alignment across all product definition elements.
-                It automatically detects gaps, conflicts, and inconsistencies, ensuring the product remains coherent as it evolves.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        <section class="section" id="feature-validator">
-          <div class="section-card">
-            <span class="eyebrow">Suite Module</span>
-            <h2>Gentlii Feature Validation</h2>
-
-            <h3>
-              Ideas are often judged by intuition. This leads to inconsistency.
-              Gentlii Feature Validation replaces intuition with structured
-              evaluation.
-            </h3>
-            <div class="foundations-inline-visual">
-              <img src="assets/images/feature-validation.svg" alt="Gentlii Feature Validator visual" />
-            </div>
-
-            <div class="split"></div>
-
-            <h3>Fast and complete validation</h3>
-            <div class="module-intro">
-              <p>Fast decisions often reduce quality. Careful decisions often take too long.
-              Gentlii Feature Validator removes that trade-off by checking every feature request against the full product definition.
-              Every idea gets the same structured evaluation: clear reasoning, no guesswork.
-              </p>
-            </div>
           </div>
         </section>
 
