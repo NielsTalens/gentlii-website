@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/png" href="logo.png" />
-    <title>Gentlii Product Thinking Suite</title>
+    <title>Getting Started | Gentlii</title>
     <style>
       :root {
         --bg: #071423;
@@ -18,7 +18,6 @@
         --hero-glow-size: 420px;
         --hero-glow: radial-gradient(circle, var(--accent-soft), transparent 68%);
         --title-glow: radial-gradient(circle, var(--accent-faint), transparent 70%);
-        --hero-text-lift: -65px;
         --border: rgba(125, 175, 205, 0.2);
         --shadow: 0 32px 80px rgba(0, 0, 0, 0.34);
       }
@@ -117,8 +116,8 @@
         color: var(--text);
       }
 
-      .hero {
-        min-height: calc(100vh - 84px);
+      .getting-started-hero {
+        min-height: calc(72vh - 84px);
         display: flex;
         align-items: center;
         justify-content: center;
@@ -128,15 +127,8 @@
 
       .hero-card {
         width: min(80vw, 1120px);
-        padding: 0;
+        margin: 0 auto;
         position: relative;
-      }
-
-      .hero-card h1 {
-        max-width: min(80vw, 1120px);
-        margin-inline: auto;
-        position: relative;
-        top: var(--hero-text-lift);
       }
 
       .hero-card::before {
@@ -152,7 +144,8 @@
 
       h1,
       h2,
-      h3 {
+      h3,
+      h4 {
         margin: 0;
         line-height: 0.92;
         letter-spacing: -0.05em;
@@ -161,23 +154,25 @@
 
       h1 {
         font-size: clamp(4rem, 8vw, 5.5rem);
+        position: relative;
+        margin-bottom: 18px;
       }
 
       h2 {
         display: block;
         width: fit-content;
-        position: relative;
         font-size: clamp(2.4rem, 4.8vw, 4rem);
         margin-bottom: 24px;
+        position: relative;
       }
 
       h2::after {
         content: "";
         position: absolute;
-        left: calc(100% + 28px);
+        left: calc(100% + 24px);
         top: 50%;
-        width: 210px;
-        height: 210px;
+        width: 180px;
+        height: 180px;
         transform: translateY(-50%);
         background: var(--title-glow);
         pointer-events: none;
@@ -192,14 +187,20 @@
         line-height: 1.5;
       }
 
-      .hero p {
+      h4 {
+        margin: 18px 0 8px;
+        color: var(--text);
+        font-size: 1.08rem;
+        line-height: 1.45;
+        letter-spacing: 0.02em;
+      }
+
+      .intro {
         width: min(80vw, 1120px);
         margin: 16px auto 0;
         color: var(--muted);
         font-size: clamp(1.42rem, 2.1vw, 1.62rem);
         line-height: 1.82;
-        position: relative;
-        top: var(--hero-text-lift);
       }
 
       .hero-visual {
@@ -211,6 +212,26 @@
         width: 100%;
         height: auto;
         display: block;
+      }
+
+      .quick-nav {
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 34px;
+      }
+
+      .quick-nav a,
+      .text-link {
+        color: var(--accent);
+        text-decoration: none;
+      }
+
+      .quick-nav a {
+        border-bottom: 1px solid rgba(17, 134, 184, 0.58);
+        font-size: 1.2rem;
+        line-height: 1.5;
       }
 
       main {
@@ -225,19 +246,21 @@
         scroll-margin-top: 96px;
       }
 
-      .section::before {
-        content: none;
-      }
-
       .section-card {
         width: min(80vw, 1120px);
+        margin: 0 auto;
         padding: 0;
         position: relative;
+      }
+
+      .step {
+        scroll-margin-top: 96px;
       }
 
       .eyebrow {
         display: inline-block;
         margin-bottom: 16px;
+        color: var(--accent);
         font-size: 0.78rem;
         font-weight: 700;
         letter-spacing: 0.16em;
@@ -246,46 +269,8 @@
 
       .split {
         height: 1px;
-        margin: 30px 0;
+        margin: 26px 0;
         background: linear-gradient(90deg, rgba(17, 134, 184, 0.7), rgba(17, 134, 184, 0));
-      }
-
-      .module-intro {
-        color: var(--accent);
-        position: relative;
-      }
-
-      .module-intro::before {
-        content: "";
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        width: min(100%, 520px);
-        height: 280px;
-        transform: translate(-50%, -50%);
-        background: var(--hero-glow);
-        pointer-events: none;
-        z-index: 0;
-      }
-
-      .module-intro p {
-        position: relative;
-        z-index: 1;
-      }
-
-      .module-inline-visual {
-        margin: 26px 0 26px;
-      }
-
-      .module-inline-visual img {
-        width: min(100%, 1024px);
-        height: auto;
-        display: block;
-        margin-inline: auto;
-      }
-
-      .product-guard-visual img {
-        width: min(75%, 768px);
       }
 
       p {
@@ -296,11 +281,6 @@
         letter-spacing: 0.02em;
       }
 
-      p a {
-        color: var(--accent);
-        text-decoration: none;
-      }
-
       ul {
         margin: 0 0 18px;
         padding-left: 20px;
@@ -309,6 +289,7 @@
 
       li {
         margin-bottom: 8px;
+        color: var(--text);
         font-size: 1.3rem;
         line-height: 1.72;
       }
@@ -321,12 +302,25 @@
         margin: 22px 0;
         padding: 8px 0 8px 18px;
         border-left: 3px solid var(--accent);
-        border-radius: 0;
-        background: transparent;
         color: var(--text);
         font-size: 1.44rem;
         font-weight: 600;
         line-height: 1.65;
+      }
+
+      .process-image {
+        margin: 22px 0 26px;
+      }
+
+      .process-image img {
+        display: block;
+        width: min(100%, 1024px);
+        height: auto;
+        margin-inline: auto;
+      }
+
+      .process-image-small img {
+        width: min(100%, 410px);
       }
 
       .site-footer {
@@ -384,15 +378,7 @@
           justify-content: flex-start;
         }
 
-        .hero {
-          min-height: auto;
-          padding: 40px 0 36px;
-        }
-
-        .hero-card,
-        .hero-card h1,
-        .hero p,
-        .hero-visual,
+        .getting-started-hero,
         .section-card,
         .site-footer {
           width: 100%;
@@ -400,17 +386,15 @@
         }
 
         .hero-card,
+        .hero-visual,
         .section-card,
         .site-footer {
+          width: 100%;
           padding-inline: 16px;
         }
 
-        .hero p {
-          margin-top: 14px;
-        }
-
-        .hero-visual {
-          margin-top: 24px;
+        .section {
+          padding-top: 32px;
         }
 
         .site-footer {
@@ -419,10 +403,9 @@
 
         h2::after {
           left: calc(100% + 16px);
-          width: 150px;
-          height: 150px;
+          width: 140px;
+          height: 140px;
         }
-
       }
     </style>
   </head>
@@ -444,130 +427,182 @@
         </nav>
       </header>
 
-      <section class="hero">
-        <div class="hero-card">
-          <h1>Product thinking made easy</h1>
-          <p>Product Thinking takes time. Most teams don’t have it.
-             Gentlii structures the groundwork and automates validation, so teams can make better decisions with less effort.
-          </p>
-          <div class="hero-visual">
-            <img src="assets/images/all-modules.svg" alt="Gentlii suite overview visual" />
-          </div>
-        </div>
-      </section>
-
       <main>
+        <section class="getting-started-hero">
+          <div class="hero-card">
+            <span class="eyebrow">Getting Started</span>
+            <h1>How to set up Gentlii</h1>
+            <p class="intro">
+              Gentlii helps teams turn scattered product knowledge into a clear product definition,
+              then uses that definition to validate new work.
+            </p>
+            <nav class="quick-nav" aria-label="Getting started sections">
+              <a href="#setup">Set up Gentlii</a>
+              <a href="#feature-validation">Validate features</a>
+              <a href="#setup-product-definition-set">Product Definition Set</a>
+              <a href="#setup-validate-definition">Product Guard</a>
+              <a href="#feature-improve">Improve feature ideas</a>
+            </nav>
+          </div>
+        </section>
 
-        <section class="section" id="feature-validator">
+        <section class="section" id="setup" aria-labelledby="setup-title">
           <div class="section-card">
-            <span class="eyebrow">Suite Module</span>
-            <h2>Gentlii Feature Validation</h2>
+            <span class="eyebrow">Product Definition</span>
+            <h2 id="setup-title">Set up Gentlii</h2>
 
-            <h3>
-              Ideas are often judged by intuition. This leads to inconsistency.
-              Gentlii Feature Validation replaces intuition with structured
-              evaluation.
-            </h3>
-            <div class="module-inline-visual">
-              <img src="assets/images/feature-validation.svg" alt="Gentlii Feature Validator visual" />
+            <div class="step" id="setup-existing-input">
+              <h3>1. Start with what you already have</h3>
+              <p>Start with the product information that is available today.</p>
+              <p>This can be:</p>
+              <ul>
+                <li>A rough idea or outline from an email thread</li>
+                <li>Existing notes</li>
+                <li>Stakeholder input</li>
+                <li>Exported user feedback, for example in a Word document</li>
+                <li>Business goals</li>
+                <li>Company strategy or strategic goals, for example in a slide deck</li>
+                <li>Existing product documentation</li>
+              </ul>
+              <p>
+                You do not need everything to be complete or consistent yet.
+                Gentlii is meant to help you discover gaps, contradictions, and missing decisions.
+              </p>
             </div>
 
             <div class="split"></div>
 
-            <h3>Fast and complete validation</h3>
-            <div class="module-intro">
-              <p>Fast decisions often reduce quality. Careful decisions often take too long.
-              Gentlii Feature Validator removes that trade-off by checking every feature request against the full product definition.
-              Every idea gets the same structured evaluation: clear reasoning, no guesswork.
-              <br /><a href="getting-started.html#feature-run-validation">See how feature validation works</a>.
+            <div class="step" id="setup-product-definition-set">
+              <h3>2. Create the first Product Definition Set</h3>
+              <p>Upload the available input into Gentlii Foundations.</p>
+              <p>Gentlii Foundations uses this input to create a first version of your Product Definition Set, including:</p>
+              <ul>
+                <li>Product strategy</li>
+                <li>Business case</li>
+                <li>Product vision</li>
+                <li>Product charter</li>
+                <li>Goals and success metrics</li>
+              </ul>
+              <p>
+                Product Guard then checks whether the generated documents are aligned with each other.
+                This gives the organisation a starting point instead of a blank page.
               </p>
+            </div>
+
+            <div class="split"></div>
+
+            <div class="step" id="setup-team-review">
+              <h3>3. Review with the team</h3>
+              <p>Plan one or more review sessions with the people who understand the product.</p>
+              <p>Use the session to:</p>
+              <ul>
+                <li>Check whether the product definition is complete</li>
+                <li>Discuss unclear or missing parts</li>
+                <li>Review suggestions from Gentlii</li>
+                <li>Resolve contradictions</li>
+                <li>Agree on goals and measurements</li>
+              </ul>
+              <p>The goal is not just to approve text but to create shared understanding.</p>
+            </div>
+
+            <div class="split"></div>
+
+            <div class="step" id="setup-version-definition">
+              <h3>4. Edit and version the Product Definition</h3>
+              <p>Update the documents based on the reviews.</p>
+              <p>
+                After that finalise the product definition set, so it becomes the agreed reference point for future decisions.
+                This makes product thinking explicit instead of dependent on memory, assumptions, or individual interpretation.
+              </p>
+            </div>
+
+            <div class="split"></div>
+
+            <div class="step" id="setup-validate-definition">
+              <h3>5. Validate the Product Definition</h3>
+              <p>
+                After each change in the product definition set Product Guard validates the alignment between the documents.
+              </p>
+              <p>
+                Product Guard checks whether the strategy, vision, charter, and other definitions support each other
+                or create conflicting direction.
+              </p>
+              <p>Once the foundation is aligned, you can use it to validate new feature ideas.</p>
             </div>
           </div>
         </section>
 
-
-        <section class="section" id="product-guard">
+        <section class="section" id="feature-validation" aria-labelledby="feature-validation-title">
           <div class="section-card">
-            <span class="eyebrow">Suite Module</span>
-            <h2>Gentlii Product Guard</h2>
+            <span class="eyebrow">Feature Validation</span>
+            <h2 id="feature-validation-title">Validate new work</h2>
 
-            <h3>
-              Product definitions are not static. Without continuous validation,
-              misalignment goes unnoticed and building the wrong things become a
-              great risk.
-            </h3>
-            <div class="module-inline-visual product-guard-visual">
-              <img src="assets/images/product-guard.svg" alt="Gentlii Product Guard visual" />
-            </div>
-
-            <div class="split"></div>
-
-            <h3>Continuous validation</h3>
-            <div class="module-intro">
-              <p>
-                Gentlii Product Guard continuously validates alignment across all product definition elements.
-                It automatically detects gaps, conflicts, and inconsistencies, ensuring the product remains coherent as it evolves.
-                <br /><a href="getting-started.html#setup-validate-definition">See how Product Guard validates the product definition</a>.
-              </p>
-            </div>
+          <div class="step" id="feature-create-work-item">
+            <h3>1. Create an user story, task, or feature idea</h3>
+            <p>Describe the work you want to validate in the backlog tool of your choice.</p>
+            <p>A useful format is:</p>
+            <h4>Goal</h4>
+            <p>What should this feature achieve?</p>
+            <h4>Context</h4>
+            <p>Why is this needed or a typical user story</p>
+            <h4>Additional information</h4>
+            <p>What constraints, assumptions, user needs, or business goals should be considered?</p>
           </div>
-        </section>
 
-        <section class="section" id="foundations">
-          <div class="section-card">
-            <span class="eyebrow">Suite Module</span>
-            <h2>Gentlii Foundations</h2>
+          <div class="split"></div>
 
-            <h3>
-              Strong product decisions require strong foundations. In reality,
-              those foundations are often missing, outdated, or fragmented. 
-              Without this, every decision becomes a guess.
-            </h3>
-            <div class="module-inline-visual">
-              <img src="assets/images/foundations.svg" alt="Gentlii Foundations visual" />
-            </div>
-
-            <div class="split"></div>
-
-            <div class="module-intro">
-              <p>
-                Gentlii Foundations creates a structured, living product definition.
-                It organizes your product into a fixed set of core documents.
-                Together, these form a coherent system that defines why the product exists, who it serves and what it should do.
-                When these elements are aligned, every new idea can be evaluated
-                with clarity and consistency. This is where <a href="#feature-validator">Gentlii Feature Validation</a> takes the stage.
-                <br /><a href="getting-started.html#setup-product-definition-set">See how to create the first Product Definition Set</a>.
-              </p>
-            </div>
-
-            <div class="split"></div>
-
-            <h3>Just drop in your existing documents</h3>
-            <p>Any type of document. Any type of information.
-              Gentlii structures, connects, and highlights gaps.
-              <br />No invention. Just clarity and structure.
-              <br /><a href="getting-started.html#setup-existing-input">See what input you can start with</a>.</p>
+          <div class="step" id="feature-run-validation">
+            <h3>2. Feature Validation</h3>
+            <p>Gentlii Feature Validation checks whether the feature aligns with the product definition set.</p>
+            <p>It looks at questions such as:</p>
+            <ul>
+              <li>Does this support the strategy?</li>
+              <li>Does this fit the product vision?</li>
+              <li>Does this respect the product charter?</li>
+              <li>Does it contribute to agreed goals or measurements?</li>
+              <li>Does it introduce scope drift or unnecessary complexity?</li>
+            </ul>
+            <p>
+              The results will be added as comment to the original work item.
+              A label containing the alignment score will be added.
+            </p>
+            <figure class="process-image process-image-small">
+              <img src="assets/images/backlog.png" alt="Backlog item with Gentlii validation label" />
+            </figure>
           </div>
-        </section>
 
-        <section class="section" id="existing-tools">
-          <div class="section-card">
-            <span class="eyebrow">How It Fits</span>
-            <h2>Works with your existing tools</h2>
+          <div class="split"></div>
 
-            <h3>
-              Gentlii runs entirely within your existing tools. No separate UI,
-              database, or infrastructure.
-            </h3>
-            <div class="split"></div>
-            <div class="module-intro">
-              <p>
-                There’s nothing new to learn or adopt, and Gentlii operates within your existing security and compliance boundaries.
-                Product definitions are created and live in your version control.
-                Feature validation happens where work already happens: creating an issue automatically triggers validation.
-                <br /><a href="getting-started.html#feature-create-work-item">See how work items are validated</a>.
-              </p>
-            </div>
+          <div class="step" id="feature-improve">
+            <h3>3. Improve the feature</h3>
+            <p>
+              Gentlii Feature Validation helps improving feature ideas by suggesting the smallest changes needed
+              to make them better aligned with the Product Definition Set.
+            </p>
+            <p>Instead of only showing what does not fit, Gentlii explains how the idea can be adjusted.</p>
+            <p>For example:</p>
+            <blockquote>
+              To align this feature more strongly with the goal of measurable outcomes, add a clear success metric before implementation.
+            </blockquote>
+            <figure class="process-image">
+              <img src="assets/images/feedback-comment.png" alt="Gentlii feedback comment on a work item" />
+            </figure>
+            <p>The work item will be automatically re-validated after any update.</p>
+          </div>
+
+          <div class="split"></div>
+
+          <div class="step" id="feature-decide">
+            <h3>4. Decide what to do next</h3>
+            <p>Based on the validation, the team can:</p>
+            <ul>
+              <li>Proceed with the feature</li>
+              <li>Adjust the feature</li>
+              <li>Split it into a smaller version</li>
+              <li>Reject or park it</li>
+              <li>Update the product definition if the discussion reveals a real strategic change</li>
+            </ul>
+          </div>
           </div>
         </section>
       </main>
@@ -580,17 +615,17 @@
             </svg>
             <span>Email</span>
           </a>
+          <a class="footer-link" href="#top">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 4 5 11l1.4 1.4L11 7.83V20h2V7.83l4.6 4.57L19 11z" />
+            </svg>
+            <span>Top</span>
+          </a>
           <a class="footer-link" href="privacy.html">
             <svg viewBox="0 0 24 24" aria-hidden="true">
               <path d="M12 2 5 5v6c0 5 3.4 9.74 7 11 3.6-1.26 7-6 7-11V5zm0 2.18 5 2.14V11c0 3.89-2.52 7.94-5 9.14C9.52 18.94 7 14.89 7 11V6.32zm0 2.32a3 3 0 0 0-3 3v1.5H8V16h8v-5h-1V9.5a3 3 0 0 0-3-3m0 2a1 1 0 0 1 1 1V11h-2V9.5a1 1 0 0 1 1-1" />
             </svg>
             <span>Privacy</span>
-          </a>
-          <a class="footer-link" href="getting-started.html">
-            <svg viewBox="0 0 24 24" aria-hidden="true">
-              <path d="M5 4h14v2H5zm0 5h14v2H5zm0 5h9v2H5zm0 5h9v2H5zm12-4.59 1.41-1.41L22 16.59 18.41 20 17 18.59 18.17 17H15v-2h3.17z" />
-            </svg>
-            <span>Getting Started</span>
           </a>
           <a class="footer-link" href="https://www.linkedin.com/company/gentlii/" target="_blank" rel="noreferrer">
             <svg viewBox="0 0 24 24" aria-hidden="true">
